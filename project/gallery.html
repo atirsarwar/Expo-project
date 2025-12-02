@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - RAAS CAMPUS KORANGI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-circle"></div>
+                <h2>RAAS CAMPUS</h2>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" class="logo-link">
+                    <div class="logo-icon">RC</div>
+                    <span class="logo-text">RAAS CAMPUS <span class="logo-sub">KORANGI</span></span>
+                </a>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <div class="nav-dropdown">
+                    <a href="about.html" class="nav-link">About <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="about.html">About Us</a>
+                        <a href="leadership.html">Leadership</a>
+                    </div>
+                </div>
+                <a href="courses.html" class="nav-link">Programs</a>
+                <a href="admissions.html" class="nav-link">Admissions</a>
+                <div class="nav-dropdown">
+                    <a href="campus-korangi.html" class="nav-link">Campus <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="campus-korangi.html">Campus Korangi</a>
+                        <a href="facilities.html">Facilities</a>
+                        <a href="teachers.html">Our Teachers</a>
+                        <a href="student-life.html">Student Life</a>
+                        <a href="achievements.html">Achievements</a>
+                    </div>
+                </div>
+                <a href="news.html" class="nav-link">News & Events</a>
+                <a href="success-stories.html" class="nav-link">Success Stories</a>
+                <a href="gallery.html" class="nav-link active">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="donate.html" class="nav-btn">Donate Now</a>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="fade-in">Gallery</h1>
+                <p class="fade-in">Explore moments from campus life, events, and student activities</p>
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Gallery</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Filters -->
+    <section class="gallery-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Photos</button>
+                <button class="filter-btn" data-filter="campus">Campus Life</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="students">Student Activities</button>
+                <button class="filter-btn" data-filter="achievements">Achievements</button>
+                <button class="filter-btn" data-filter="facilities">Facilities</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="photo-gallery">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- Campus Life Images -->
+                <div class="gallery-item fade-in" data-category="campus">
+                    <div class="gallery-image">
+                        <img src="assets/images/gallery/campus-1.jpg" alt="Campus Building" data-src="assets/images/gallery/campus-1.jpg">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Campus Overview</h4>
+                                <p>Main building of RAAS Campus Korangi</p>
+                            </div>
+                            <button class="gallery-view-btn">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="campus">
+                    <div class="gallery-image">
+                        <img src="assets/images/gallery/campus-2.jpg" alt="Library" data-src="assets/images/gallery/campus-2.jpg">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Library</h4>
+                                <p>Students studying in campus library</p>
+                            </div>
+                            <button class="gallery-view-btn">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="facilities">
+                    <div class="gallery-image">
+                        <img src="assets/images/gallery/computer-lab.jpg" alt="Computer Lab" data-src="assets/images/gallery/computer-lab.jpg">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Computer Lab</h4>
+                                <p>State-of-the-art computer laboratory</p>
+                            </div>
+                            <button class="gallery-view-btn">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Events Images -->
+                <div class="gallery-item fade-in" data-category="events">
+                    <div class="gallery-image">
+                        <img src="assets/images/gallery/graduation.jpg" alt="Graduation Ceremony" data-src="assets/images/gallery/graduation.jpg">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Graduation 2023</h4>
+                                <p>Annual graduation ceremony</p>
+                            </div>
+                            <button class="gallery-view-btn">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="events">
+                    <div class="gallery-image">
+                        <img src="assets/images/gallery/seminar.jpg" alt="Industry Seminar" data-src="assets/images/gallery/seminar.jpg">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Industry Seminar</h4>
+                                <p>Guest speaker from IT industry</p>
+                            </div>
+                            <button class="gallery-view-btn">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="events">
+                    <div class="gallery-image">
+                        <img src="assets/images/gallery/cultural-event.jpg" alt="Cultural Event" data-src="assets/images/gallery/cultural-event.jpg">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Cultural Event</h4>
+                                <p>Students performing at annual event</p>
+                            </div>
+                            <button class="gallery-view-btn">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Student Activities -->
+                <div class="gallery-item fade-in" data-category="students">
+                    <div class="gallery-image">
+                        <img src="assets/images/gallery/classroom.jpg" alt="Classroom Session" data-src="assets/images/gallery/classroom.jpg">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Classroom Learning</h4>
+                                <p>Interactive classroom session</p>
+                            </div>
+                            <button class="gallery-view-btn">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="students">
+                    <div class="gallery-image">
+                        <img src="assets/images/gallery/group-project.jpg" alt="Group Project" data-src="assets/images/gallery/group-project.jpg">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Group Project</h4>
+                                <p>Students working on team project</p>
+                            </div>
+                            <button class="gallery-view-btn">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="students">
+                    <div class="gallery-image">
+                        <img src="assets/images/gallery/sports.jpg" alt="Sports Activity" data-src="assets/images/gallery/sports.jpg">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Sports Day</h4>
+                                <p>Annual sports competition</p>
+                            </div>
+                            <button class="gallery-view-btn">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievements -->
+                <div class="gallery-item fade-in" data-category="achievements">
+                    <div class="gallery-image">
+                        <img src="assets/images/gallery/award-ceremony.jpg" alt="Award Ceremony" data-src="assets/images/gallery/award-ceremony.jpg">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Award Ceremony</h4>
+                                <p>Students receiving excellence awards</p>
+                            </div>
+                            <button class="gallery-view-btn">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="achievements">
+                    <div class="gallery-image">
+                        <img src="assets/images/gallery/competition.jpg" alt="Coding Competition" data-src="assets/images/gallery/competition.jpg">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Coding Competition</h4>
+                                <p>Winners of national coding challenge</p>
+                            </div>
+                            <button class="gallery-view-btn">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in" data-category="achievements">
+                    <div class="gallery-image">
+                        <img src="assets/images/gallery/certificate-distribution.jpg" alt="Certificate Distribution" data-src="assets/images/gallery/certificate-distribution.jpg">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Certificate Distribution</h4>
+                                <p>Graduates receiving course certificates</p>
+                            </div>
+                            <button class="gallery-view-btn">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-load-more">
+                <button class="btn btn-outline" id="loadMore">
+                    <i class="fas fa-plus"></i>
+                    Load More Photos
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Gallery -->
+    <section class="video-gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Video Gallery</h2>
+                <p class="section-description">Watch highlights from campus events and student activities</p>
+            </div>
+
+            <div class="video-grid">
+                <div class="video-card fade-in">
+                    <div class="video-thumbnail">
+                        <img src="assets/images/gallery/video-thumb-1.jpg" alt="Campus Tour">
+                        <div class="video-play-btn">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h4>Campus Virtual Tour</h4>
+                        <p>Take a guided tour of RAAS Campus facilities</p>
+                        <span class="video-duration">5:30</span>
+                    </div>
+                </div>
+
+                <div class="video-card fade-in">
+                    <div class="video-thumbnail">
+                        <img src="assets/images/gallery/video-thumb-2.jpg" alt="Student Success Stories">
+                        <div class="video-play-btn">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h4>Success Stories</h4>
+                        <p>Hear from our successful alumni</p>
+                        <span class="video-duration">8:15</span>
+                    </div>
+                </div>
+
+                <div class="video-card fade-in">
+                    <div class="video-thumbnail">
+                        <img src="assets/images/gallery/video-thumb-3.jpg" alt="Annual Event">
+                        <div class="video-play-btn">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h4>Annual Day 2023</h4>
+                        <p>Highlights from our annual celebration</p>
+                        <span class="video-duration">6:45</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightboxClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <button class="lightbox-prev" id="lightboxPrev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="lightbox-next" id="lightboxNext">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="lightbox-image-container">
+                <img id="lightboxImage" src="" alt="">
+            </div>
+            <div class="lightbox-caption">
+                <h4 id="lightboxTitle"></h4>
+                <p id="lightboxDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-icon">RC</div>
+                        <span class="logo-text">RAAS CAMPUS <span class="logo-sub">KORANGI</span></span>
+                    </div>
+                    <p class="footer-description">Empowering Karachi through practical education, skills development, and character building since 2010.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Programs</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Programs</h4>
+                    <ul class="footer-links">
+                        <li><a href="courses.html#it">Information Technology</a></li>
+                        <li><a href="courses.html#business">Business Administration</a></li>
+                        <li><a href="courses.html#design">Graphic Design</a></li>
+                        <li><a href="courses.html">All Courses</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Korangi Crossing, Karachi, Pakistan</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+92 21 34567890</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@raascampus.edu.pk</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon - Sat: 8:00 AM - 6:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 RAAS Campus Korangi. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                        <a href="terms.html">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Gallery functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            const viewBtns = document.querySelectorAll('.gallery-view-btn');
+            const lightboxModal = document.getElementById('lightboxModal');
+            const lightboxImage = document.getElementById('lightboxImage');
+            const lightboxTitle = document.getElementById('lightboxTitle');
+            const lightboxDescription = document.getElementById('lightboxDescription');
+            const lightboxClose = document.getElementById('lightboxClose');
+            const lightboxPrev = document.getElementById('lightboxPrev');
+            const lightboxNext = document.getElementById('lightboxNext');
+            const loadMoreBtn = document.getElementById('loadMore');
+
+            let currentImageIndex = 0;
+            const images = Array.from(galleryItems);
+
+            // Filter functionality
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const filter = this.getAttribute('data-filter');
+                    
+                    // Update active button
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Filter items
+                    galleryItems.forEach(item => {
+                        if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                            item.style.display = 'block';
+                            setTimeout(() => {
+                                item.style.opacity = '1';
+                                item.style.transform = 'scale(1)';
+                            }, 100);
+                        } else {
+                            item.style.opacity = '0';
+                            item.style.transform = 'scale(0.8)';
+                            setTimeout(() => {
+                                item.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+
+            // Lightbox functionality
+            viewBtns.forEach((btn, index) => {
+                btn.addEventListener('click', function() {
+                    const galleryItem = this.closest('.gallery-item');
+                    const img = galleryItem.querySelector('img');
+                    const title = galleryItem.querySelector('h4').textContent;
+                    const description = galleryItem.querySelector('p').textContent;
+                    
+                    currentImageIndex = images.indexOf(galleryItem);
+                    
+                    lightboxImage.src = img.getAttribute('data-src');
+                    lightboxTitle.textContent = title;
+                    lightboxDescription.textContent = description;
+                    lightboxModal.style.display = 'flex';
+                    
+                    setTimeout(() => {
+                        lightboxModal.classList.add('active');
+                    }, 10);
+                });
+            });
+
+            // Close lightbox
+            lightboxClose.addEventListener('click', closeLightbox);
+            lightboxModal.addEventListener('click', function(e) {
+                if (e.target === lightboxModal) {
+                    closeLightbox();
+                }
+            });
+
+            // Navigation
+            lightboxPrev.addEventListener('click', showPrevImage);
+            lightboxNext.addEventListener('click', showNextImage);
+
+            // Keyboard navigation
+            document.addEventListener('keydown', function(e) {
+                if (lightboxModal.classList.contains('active')) {
+                    if (e.key === 'Escape') closeLightbox();
+                    if (e.key === 'ArrowLeft') showPrevImage();
+                    if (e.key === 'ArrowRight') showNextImage();
+                }
+            });
+
+            function closeLightbox() {
+                lightboxModal.classList.remove('active');
+                setTimeout(() => {
+                    lightboxModal.style.display = 'none';
+                }, 300);
+            }
+
+            function showPrevImage() {
+                currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+                updateLightboxImage();
+            }
+
+            function showNextImage() {
+                currentImageIndex = (currentImageIndex + 1) % images.length;
+                updateLightboxImage();
+            }
+
+            function updateLightboxImage() {
+                const galleryItem = images[currentImageIndex];
+                const img = galleryItem.querySelector('img');
+                const title = galleryItem.querySelector('h4').textContent;
+                const description = galleryItem.querySelector('p').textContent;
+                
+                lightboxImage.style.opacity = '0';
+                setTimeout(() => {
+                    lightboxImage.src = img.getAttribute('data-src');
+                    lightboxTitle.textContent = title;
+                    lightboxDescription.textContent = description;
+                    lightboxImage.style.opacity = '1';
+                }, 300);
+            }
+
+            // Load more functionality
+            loadMoreBtn.addEventListener('click', function() {
+                // Simulate loading more images
+                this.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Loading...';
+                this.disabled = true;
+                
+                setTimeout(() => {
+                    this.innerHTML = '<i class="fas fa-plus"></i> Load More Photos';
+                    this.disabled = false;
+                    // In real implementation, you would load more images here
+                }, 2000);
+            });
+        });
+    </script>
+</body>
+</html>

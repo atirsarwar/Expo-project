@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Life - RAAS CAMPUS KORANGI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-circle"></div>
+                <h2>RAAS CAMPUS</h2>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" class="logo-link">
+                    <div class="logo-icon">RC</div>
+                    <span class="logo-text">RAAS CAMPUS <span class="logo-sub">KORANGI</span></span>
+                </a>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <div class="nav-dropdown">
+                    <a href="about.html" class="nav-link">About <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="about.html">About Us</a>
+                        <a href="mission-vision.html">Mission & Vision</a>
+                        <a href="leadership.html">Leadership</a>
+                    </div>
+                </div>
+                <a href="courses.html" class="nav-link">Programs</a>
+                <a href="admissions.html" class="nav-link">Admissions</a>
+                <div class="nav-dropdown">
+                    <a href="campus-korangi.html" class="nav-link">Campus <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="campus-korangi.html">Campus Korangi</a>
+                        <a href="facilities.html">Facilities</a>
+                        <a href="teachers.html">Our Teachers</a>
+                        <a href="student-life.html" class="active">Student Life</a>
+                        <a href="achievements.html">Achievements</a>
+                    </div>
+                </div>
+                <a href="news.html" class="nav-link">News & Events</a>
+                <a href="success-stories.html" class="nav-link">Success Stories</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="donate.html" class="nav-btn">Donate Now</a>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="fade-in">Student Life</h1>
+                <p class="fade-in">Experience the vibrant campus life at RAAS Campus Korangi</p>
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <a href="campus-korangi.html">Campus</a>
+                    <span>/</span>
+                    <span>Student Life</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Life Overview -->
+    <section class="campus-life-overview">
+        <div class="container">
+            <div class="overview-content">
+                <div class="overview-text slide-in-left">
+                    <h2>More Than Just Education</h2>
+                    <p>At RAAS Campus Korangi, we believe that education extends beyond the classroom. Our vibrant campus life is designed to foster holistic development, build lasting friendships, and create unforgettable memories.</p>
+                    
+                    <div class="life-stats">
+                        <div class="life-stat">
+                            <h4>15+</h4>
+                            <p>Student Clubs</p>
+                        </div>
+                        <div class="life-stat">
+                            <h4>50+</h4>
+                            <p>Annual Events</p>
+                        </div>
+                        <div class="life-stat">
+                            <h4>100%</h4>
+                            <p>Student Engagement</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="overview-image slide-in-right">
+                    <img src="assets/images/student-life/campus-life.jpg" alt="Vibrant Campus Life">
+                    <div class="image-badge">
+                        <i class="fas fa-heart"></i>
+                        <span>#RAASLife</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Activities Grid -->
+    <section class="student-activities">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Campus Activities</span>
+                <h2 class="section-title">Engage, Learn, Grow</h2>
+                <p class="section-description">Discover diverse opportunities for personal and professional growth</p>
+            </div>
+
+            <div class="activities-grid">
+                <!-- Academic Clubs -->
+                <div class="activity-card fade-in">
+                    <div class="activity-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Tech Club</h3>
+                    <p>Join our coding enthusiasts for hackathons, workshops, and tech innovation projects.</p>
+                    <ul class="activity-features">
+                        <li><i class="fas fa-check"></i> Weekly coding sessions</li>
+                        <li><i class="fas fa-check"></i> Tech competitions</li>
+                        <li><i class="fas fa-check"></i> Industry guest speakers</li>
+                    </ul>
+                    <span class="activity-tag">Active Members: 45</span>
+                </div>
+
+                <!-- Cultural Activities -->
+                <div class="activity-card fade-in">
+                    <div class="activity-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Cultural Society</h3>
+                    <p>Express your creativity through music, drama, dance, and artistic performances.</p>
+                    <ul class="activity-features">
+                        <li><i class="fas fa-check"></i> Annual cultural fest</li>
+                        <li><i class="fas fa-check"></i> Talent shows</li>
+                        <li><i class="fas fa-check"></i> Art exhibitions</li>
+                    </ul>
+                    <span class="activity-tag">Active Members: 60</span>
+                </div>
+
+                <!-- Sports & Fitness -->
+                <div class="activity-card fade-in">
+                    <div class="activity-icon">
+                        <i class="fas fa-futbol"></i>
+                    </div>
+                    <h3>Sports Club</h3>
+                    <p>Stay active and competitive with our various sports teams and fitness programs.</p>
+                    <ul class="activity-features">
+                        <li><i class="fas fa-check"></i> Cricket & football teams</li>
+                        <li><i class="fas fa-check"></i> Annual sports day</li>
+                        <li><i class="fas fa-check"></i> Fitness workshops</li>
+                    </ul>
+                    <span class="activity-tag">Active Members: 80</span>
+                </div>
+
+                <!-- Entrepreneurship -->
+                <div class="activity-card fade-in">
+                    <div class="activity-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Entrepreneurship Cell</h3>
+                    <p>Turn your ideas into reality with mentorship and startup support.</p>
+                    <ul class="activity-features">
+                        <li><i class="fas fa-check"></i> Startup workshops</li>
+                        <li><i class="fas fa-check"></i> Business plan competitions</li>
+                        <li><i class="fas fa-check"></i> Investor meetings</li>
+                    </ul>
+                    <span class="activity-tag">Active Members: 35</span>
+                </div>
+
+                <!-- Community Service -->
+                <div class="activity-card fade-in">
+                    <div class="activity-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Community Service</h3>
+                    <p>Make a difference in the community through various social service initiatives.</p>
+                    <ul class="activity-features">
+                        <li><i class="fas fa-check"></i> Weekly outreach programs</li>
+                        <li><i class="fas fa-check"></i> Charity drives</li>
+                        <li><i class="fas fa-check"></i> Environmental campaigns</li>
+                    </ul>
+                    <span class="activity-tag">Active Members: 55</span>
+                </div>
+
+                <!-- Debate & Public Speaking -->
+                <div class="activity-card fade-in">
+                    <div class="activity-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Debate Society</h3>
+                    <p>Hone your public speaking and critical thinking skills.</p>
+                    <ul class="activity-features">
+                        <li><i class="fas fa-check"></i> Weekly debate sessions</li>
+                        <li><i class="fas fa-check"></i> Inter-college competitions</li>
+                        <li><i class="fas fa-check"></i> Public speaking workshops</li>
+                    </ul>
+                    <span class="activity-tag">Active Members: 40</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Daily Schedule -->
+    <section class="daily-schedule">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">A Day in the Life</h2>
+                <p class="section-description">Experience the perfect balance of learning and leisure</p>
+            </div>
+
+            <div class="schedule-timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-time">
+                        <span class="time">8:00 AM</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-sun"></i>
+                        </div>
+                        <h4>Morning Assembly</h4>
+                        <p>Start your day with motivational talks and campus announcements</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-time">
+                        <span class="time">9:00 AM</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <h4>Class Sessions Begin</h4>
+                        <p>Interactive classroom learning with experienced faculty</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-time">
+                        <span class="time">11:00 AM</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-coffee"></i>
+                        </div>
+                        <h4>Break Time</h4>
+                        <p>Refresh and socialize in our vibrant campus cafeteria</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-time">
+                        <span class="time">12:00 PM</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <h4>Practical Lab Sessions</h4>
+                        <p>Hands-on learning in fully equipped computer labs</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-time">
+                        <span class="time">2:00 PM</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h4>Lunch Break</h4>
+                        <p>Delicious and affordable meals at campus cafeteria</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-time">
+                        <span class="time">3:00 PM</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Club Activities</h4>
+                        <p>Participate in various student clubs and societies</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-time">
+                        <span class="time">5:00 PM</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-dumbbell"></i>
+                        </div>
+                        <h4>Sports & Fitness</h4>
+                        <p>Unwind with sports activities and fitness sessions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Events -->
+    <section class="campus-events">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Annual Events</span>
+                <h2 class="section-title">Celebrations & Traditions</h2>
+                <p class="section-description">Mark your calendar for these exciting annual events</p>
+            </div>
+
+            <div class="events-slider">
+                <div class="events-track" id="eventsTrack">
+                    <!-- Event 1 -->
+                    <div class="event-slide">
+                        <div class="event-image">
+                            <img src="assets/images/student-life/graduation-event.jpg" alt="Graduation Ceremony">
+                            <div class="event-date">
+                                <span class="month">MAR</span>
+                                <span class="day">15</span>
+                            </div>
+                        </div>
+                        <div class="event-content">
+                            <h3>Annual Graduation Ceremony</h3>
+                            <p>A grand celebration honoring our graduates' achievements with families, faculty, and special guests.</p>
+                            <div class="event-details">
+                                <span><i class="fas fa-calendar"></i> March 15, 2024</span>
+                                <span><i class="fas fa-map-marker-alt"></i> Main Auditorium</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Event 2 -->
+                    <div class="event-slide">
+                        <div class="event-image">
+                            <img src="assets/images/student-life/cultural-fest.jpg" alt="Cultural Festival">
+                            <div class="event-date">
+                                <span class="month">APR</span>
+                                <span class="day">20-22</span>
+                            </div>
+                        </div>
+                        <div class="event-content">
+                            <h3>Spring Cultural Festival</h3>
+                            <p>Three days of music, dance, drama, and art showcasing student talent and creativity.</p>
+                            <div class="event-details">
+                                <span><i class="fas fa-calendar"></i> April 20-22, 2024</span>
+                                <span><i class="fas fa-map-marker-alt"></i> Campus Grounds</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Event 3 -->
+                    <div class="event-slide">
+                        <div class="event-image">
+                            <img src="assets/images/student-life/tech-fair.jpg" alt="Tech Fair">
+                            <div class="event-date">
+                                <span class="month">OCT</span>
+                                <span class="day">10</span>
+                            </div>
+                        </div>
+                        <div class="event-content">
+                            <h3>Tech Innovation Fair</h3>
+                            <p>Showcasing student projects, startup ideas, and technological innovations to industry experts.</p>
+                            <div class="event-details">
+                                <span><i class="fas fa-calendar"></i> October 10, 2024</span>
+                                <span><i class="fas fa-map-marker-alt"></i> Tech Building</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="slider-prev" id="eventsPrev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="slider-next" id="eventsNext">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Support Services -->
+    <section class="support-services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Student Support & Wellness</h2>
+                <p class="section-description">We're committed to your well-being and success</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Academic Counseling</h3>
+                    <p>Personalized guidance for course selection, career planning, and academic success.</p>
+                    <ul class="service-features">
+                        <li>One-on-one sessions</li>
+                        <li>Study skill workshops</li>
+                        <li>Progress monitoring</li>
+                    </ul>
+                </div>
+
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Health & Wellness</h3>
+                    <p>Comprehensive health services and wellness programs for students.</p>
+                    <ul class="service-features">
+                        <li>First-aid facility</li>
+                        <li>Mental health support</li>
+                        <li>Fitness programs</li>
+                    </ul>
+                </div>
+
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Career Services</h3>
+                    <p>Preparation for professional success with career guidance and placement support.</p>
+                    <ul class="service-features">
+                        <li>Resume building</li>
+                        <li>Interview preparation</li>
+                        <li>Job placement assistance</li>
+                    </ul>
+                </div>
+
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Peer Mentoring</h3>
+                    <p>Connect with experienced students for guidance and support.</p>
+                    <ul class="service-features">
+                        <li>Academic support</li>
+                        <li>Social integration</li>
+                        <li>Problem-solving help</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Testimonials -->
+    <section class="student-testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Student Voices</span>
+                <h2 class="section-title">Life at RAAS Campus</h2>
+                <p class="section-description">Hear from our students about their campus experience</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"The campus life at RAAS transformed me from a shy student to a confident individual. The clubs and activities helped me discover my leadership potential."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/images/student-life/testimonial-1.jpg" alt="Ahmed Raza">
+                        <div class="author-info">
+                            <h4>Ahmed Raza</h4>
+                            <span>IT Student, Tech Club President</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"What I love most about RAAS is the sense of community. The faculty genuinely cares, and there's always something exciting happening on campus."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/images/student-life/testimonial-2.jpg" alt="Fatima Khan">
+                        <div class="author-info">
+                            <h4>Fatima Khan</h4>
+                            <span>Business Student, Cultural Society</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"The balance between academics and extracurricular activities is perfect. I've made lifelong friends while gaining valuable skills for my career."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/images/student-life/testimonial-3.jpg" alt="Bilal Ahmed">
+                        <div class="author-info">
+                            <h4>Bilal Ahmed</h4>
+                            <span>Design Student, Sports Team Captain</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Facilities Highlight -->
+    <section class="facilities-highlight">
+        <div class="container">
+            <div class="highlight-content">
+                <div class="highlight-text slide-in-left">
+                    <h2>Campus Facilities for Students</h2>
+                    <p>Our campus is equipped with modern facilities to support your academic journey and personal growth.</p>
+                    
+                    <div class="facilities-list">
+                        <div class="facility-item">
+                            <i class="fas fa-wifi"></i>
+                            <span>High-speed WiFi Campus</span>
+                        </div>
+                        <div class="facility-item">
+                            <i class="fas fa-book"></i>
+                            <span>Well-stocked Library</span>
+                        </div>
+                        <div class="facility-item">
+                            <i class="fas fa-laptop"></i>
+                            <span>24/7 Computer Lab Access</span>
+                        </div>
+                        <div class="facility-item">
+                            <i class="fas fa-utensils"></i>
+                            <span>Affordable Cafeteria</span>
+                        </div>
+                        <div class="facility-item">
+                            <i class="fas fa-dumbbell"></i>
+                            <span>Sports Complex</span>
+                        </div>
+                        <div class="facility-item">
+                            <i class="fas fa-pray"></i>
+                            <span>Prayer Facilities</span>
+                        </div>
+                    </div>
+                    
+                    <a href="facilities.html" class="btn btn-primary">Explore All Facilities</a>
+                </div>
+                
+                <div class="highlight-image slide-in-right">
+                    <div class="image-grid">
+                        <div class="grid-item">
+                            <img src="assets/images/student-life/library.jpg" alt="Library">
+                            <div class="grid-overlay">Library</div>
+                        </div>
+                        <div class="grid-item">
+                            <img src="assets/images/student-life/cafeteria.jpg" alt="Cafeteria">
+                            <div class="grid-overlay">Cafeteria</div>
+                        </div>
+                        <div class="grid-item">
+                            <img src="assets/images/student-life/sports.jpg" alt="Sports">
+                            <div class="grid-overlay">Sports Area</div>
+                        </div>
+                        <div class="grid-item">
+                            <img src="assets/images/student-life/common-area.jpg" alt="Common Area">
+                            <div class="grid-overlay">Common Area</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Campus Life CTA -->
+    <section class="join-campus-life">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Experience Campus Life?</h2>
+                <p>Join our vibrant community and create memories that last a lifetime</p>
+                <div class="cta-buttons">
+                    <a href="admissions.html" class="btn btn-light">Apply Now</a>
+                    <a href="contact.html" class="btn btn-outline-light">Schedule Campus Tour</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Feed -->
+    <section class="social-feed">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">#RAASLife on Social Media</h2>
+                <p class="section-description">Follow our campus life moments</p>
+            </div>
+
+            <div class="social-grid">
+                <div class="social-post fade-in">
+                    <div class="post-header">
+                        <i class="fab fa-instagram"></i>
+                        <span>@raascampus_korangi</span>
+                    </div>
+                    <div class="post-image">
+                        <img src="assets/images/student-life/social-1.jpg" alt="Campus Event">
+                    </div>
+                    <div class="post-content">
+                        <p>Cultural Festival 2023 - Moments of joy and creativity! 🎭✨</p>
+                        <span class="post-date">2 days ago</span>
+                    </div>
+                </div>
+
+                <div class="social-post fade-in">
+                    <div class="post-header">
+                        <i class="fab fa-facebook"></i>
+                        <span>RAAS Campus Korangi</span>
+                    </div>
+                    <div class="post-image">
+                        <img src="assets/images/student-life/social-2.jpg" alt="Sports Day">
+                    </div>
+                    <div class="post-content">
+                        <p>Annual Sports Day champions! 🏆 Congratulations to all participants!</p>
+                        <span class="post-date">1 week ago</span>
+                    </div>
+                </div>
+
+                <div class="social-post fade-in">
+                    <div class="post-header">
+                        <i class="fab fa-twitter"></i>
+                        <span>@RAAS_Campus</span>
+                    </div>
+                    <div class="post-image">
+                        <img src="assets/images/student-life/social-3.jpg" alt="Tech Workshop">
+                    </div>
+                    <div class="post-content">
+                        <p>Tech workshop with industry experts! 💻 Building skills for tomorrow.</p>
+                        <span class="post-date">2 weeks ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-icon">RC</div>
+                        <span class="logo-text">RAAS CAMPUS <span class="logo-sub">KORANGI</span></span>
+                    </div>
+                    <p class="footer-description">Empowering Karachi through practical education, skills development, and character building since 2010.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Programs</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Programs</h4>
+                    <ul class="footer-links">
+                        <li><a href="courses.html#it">Information Technology</a></li>
+                        <li><a href="courses.html#business">Business Administration</a></li>
+                        <li><a href="courses.html#design">Graphic Design</a></li>
+                        <li><a href="courses.html">All Courses</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Korangi Crossing, Karachi, Pakistan</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+92 21 34567890</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@raascampus.edu.pk</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon - Sat: 8:00 AM - 6:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 RAAS Campus Korangi. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                        <a href="terms.html">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

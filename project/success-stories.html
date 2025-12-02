@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Stories - RAAS CAMPUS KORANGI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-circle"></div>
+                <h2>RAAS CAMPUS</h2>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" class="logo-link">
+                    <div class="logo-icon">RC</div>
+                    <span class="logo-text">RAAS CAMPUS <span class="logo-sub">KORANGI</span></span>
+                </a>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <div class="nav-dropdown">
+                    <a href="about.html" class="nav-link">About <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="about.html">About Us</a>
+                        <a href="mission-vision.html">Mission & Vision</a>
+                        <a href="leadership.html">Leadership</a>
+                    </div>
+                </div>
+                <a href="courses.html" class="nav-link">Programs</a>
+                <a href="admissions.html" class="nav-link">Admissions</a>
+                <div class="nav-dropdown">
+                    <a href="campus-korangi.html" class="nav-link">Campus <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="campus-korangi.html">Campus Korangi</a>
+                        <a href="facilities.html">Facilities</a>
+                        <a href="teachers.html">Our Teachers</a>
+                        <a href="student-life.html">Student Life</a>
+                        <a href="achievements.html">Achievements</a>
+                    </div>
+                </div>
+                <a href="news.html" class="nav-link">News & Events</a>
+                <a href="success-stories.html" class="nav-link active">Success Stories</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="donate.html" class="nav-btn">Donate Now</a>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="fade-in">Success Stories</h1>
+                <p class="fade-in">Inspiring journeys of our alumni who transformed their lives through education</p>
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Success Stories</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Success Story -->
+    <section class="featured-success">
+        <div class="container">
+            <div class="featured-story">
+                <div class="story-content slide-in-left">
+                    <span class="story-badge">Featured Story</span>
+                    <h2>From Student to Entrepreneur: Ahmed's Journey</h2>
+                    <p class="story-excerpt">Ahmed Raza, a graduate of our Information Technology program, started his own web development company that now employs 15 people and serves clients across Pakistan.</p>
+                    <div class="story-stats">
+                        <div class="stat">
+                            <h4>PKR 2.5M</h4>
+                            <span>Annual Revenue</span>
+                        </div>
+                        <div class="stat">
+                            <h4>15</h4>
+                            <span>Employees</span>
+                        </div>
+                        <div class="stat">
+                            <h4>50+</h4>
+                            <span>Clients Served</span>
+                        </div>
+                    </div>
+                    <a href="#ahmed-story" class="btn btn-primary">Read Full Story</a>
+                </div>
+                <div class="story-image slide-in-right">
+                    <img src="assets/images/success/featured-story.jpg" alt="Ahmed Raza - Success Story">
+                    <div class="story-quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"RAAS Campus gave me the skills and confidence to turn my passion into a successful business."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories Grid -->
+    <section class="success-stories-grid">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Inspiring Alumni Stories</h2>
+                <p class="section-description">Discover how our graduates are making a difference in various industries</p>
+            </div>
+
+            <div class="stories-filter">
+                <button class="filter-btn active" data-filter="all">All Stories</button>
+                <button class="filter-btn" data-filter="technology">Technology</button>
+                <button class="filter-btn" data-filter="business">Business</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="entrepreneurship">Entrepreneurship</button>
+            </div>
+
+            <div class="stories-container">
+                <!-- Story 1 -->
+                <div class="success-story-card fade-in" data-category="technology" id="ahmed-story">
+                    <div class="story-image">
+                        <img src="assets/images/success/story-1.jpg" alt="Ahmed Raza">
+                    </div>
+                    <div class="story-content">
+                        <span class="story-category">Technology</span>
+                        <h3>Ahmed Raza</h3>
+                        <span class="story-program">Information Technology, 2020</span>
+                        <p class="story-current">Founder & CEO - WebTech Solutions</p>
+                        <p class="story-description">After completing the IT program, Ahmed started his web development company. Within three years, his company grew from a one-person operation to a team of 15 developers serving clients nationwide.</p>
+                        <div class="story-achievements">
+                            <h4>Key Achievements:</h4>
+                            <ul>
+                                <li>Established successful web development agency</li>
+                                <li>Created 15+ employment opportunities</li>
+                                <li>Featured in Tech Pakistan Magazine</li>
+                                <li>Mentor to current RAAS students</li>
+                            </ul>
+                        </div>
+                        <blockquote class="story-testimonial">
+                            "The practical skills I gained at RAAS Campus were immediately applicable in the real world. The project-based learning approach prepared me perfectly for entrepreneurship."
+                        </blockquote>
+                    </div>
+                </div>
+
+                <!-- Story 2 -->
+                <div class="success-story-card fade-in" data-category="business">
+                    <div class="story-image">
+                        <img src="assets/images/success/story-2.jpg" alt="Fatima Khan">
+                    </div>
+                    <div class="story-content">
+                        <span class="story-category">Business</span>
+                        <h3>Fatima Khan</h3>
+                        <span class="story-program">Business Administration, 2019</span>
+                        <p class="story-current">Operations Manager - Retail Chain</p>
+                        <p class="story-description">Fatima's journey from a business administration student to operations manager at a leading retail chain demonstrates the power of quality education and determination.</p>
+                        <div class="story-achievements">
+                            <h4>Key Achievements:</h4>
+                            <ul>
+                                <li>Promoted to Operations Manager within 2 years</li>
+                                <li>Manages team of 50+ employees</li>
+                                <li>Improved operational efficiency by 30%</li>
+                                <li>Recipient of "Young Manager of the Year" award</li>
+                            </ul>
+                        </div>
+                        <blockquote class="story-testimonial">
+                            "The business management principles I learned at RAAS Campus are the foundation of my professional success. The case studies and real-world examples were invaluable."
+                        </blockquote>
+                    </div>
+                </div>
+
+                <!-- Story 3 -->
+                <div class="success-story-card fade-in" data-category="design">
+                    <div class="story-image">
+                        <img src="assets/images/success/story-3.jpg" alt="Bilal Ahmed">
+                    </div>
+                    <div class="story-content">
+                        <span class="story-category">Design</span>
+                        <h3>Bilal Ahmed</h3>
+                        <span class="story-program">Graphic Design, 2021</span>
+                        <p class="story-current">Senior UI/UX Designer - Tech Startup</p>
+                        <p class="story-description">Bilal transformed his creative passion into a successful career in user experience design, working with innovative tech startups and established companies.</p>
+                        <div class="story-achievements">
+                            <h4>Key Achievements:</h4>
+                            <ul>
+                                <li>Lead designer for multiple successful apps</li>
+                                <li>Featured in Design Pakistan exhibition</li>
+                                <li>Mentor for aspiring designers</li>
+                                <li>Freelance clients include international brands</li>
+                            </ul>
+                        </div>
+                        <blockquote class="story-testimonial">
+                            "The graphic design program at RAAS Campus didn't just teach me software skills—it taught me how to think creatively and solve design problems effectively."
+                        </blockquote>
+                    </div>
+                </div>
+
+                <!-- Story 4 -->
+                <div class="success-story-card fade-in" data-category="entrepreneurship">
+                    <div class="story-image">
+                        <img src="assets/images/success/story-4.jpg" alt="Sara Javed">
+                    </div>
+                    <div class="story-content">
+                        <span class="story-category">Entrepreneurship</span>
+                        <h3>Sara Javed</h3>
+                        <span class="story-program">Digital Marketing, 2022</span>
+                        <p class="story-current">Founder - Social Media Agency</p>
+                        <p class="story-description">Sara combined her digital marketing skills with entrepreneurship to create a social media management agency that helps local businesses grow their online presence.</p>
+                        <div class="story-achievements">
+                            <h4>Key Achievements:</h4>
+                            <ul>
+                                <li>Built agency from ground up</li>
+                                <li>Manages social media for 25+ businesses</li>
+                                <li>Generated PKR 1.5M in first year</li>
+                                <li>Featured speaker at marketing conferences</li>
+                            </ul>
+                        </div>
+                        <blockquote class="story-testimonial">
+                            "The digital marketing course gave me the exact skills I needed to start my own agency. The practical assignments were like running a real business."
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="success-stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card fade-in">
+                    <div class="stat-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-count="85">0</h3>
+                        <p class="stat-label">Employment Rate</p>
+                    </div>
+                </div>
+                <div class="stat-card fade-in">
+                    <div class="stat-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-count="40">0</h3>
+                        <p class="stat-label">Entrepreneurs</p>
+                    </div>
+                </div>
+                <div class="stat-card fade-in">
+                    <div class="stat-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-count="150">0</h3>
+                        <p class="stat-label">Industry Awards</p>
+                    </div>
+                </div>
+                <div class="stat-card fade-in">
+                    <div class="stat-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-count="500">0</h3>
+                        <p class="stat-label">Career Advancements</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alumni Network -->
+    <section class="alumni-network">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Join Our Alumni Network</h2>
+                <p class="section-description">Connect with fellow graduates and continue your professional growth</p>
+            </div>
+
+            <div class="alumni-features">
+                <div class="alumni-feature fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Networking Events</h3>
+                    <p>Regular meetups and networking sessions with alumni across industries</p>
+                </div>
+                <div class="alumni-feature fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Career Opportunities</h3>
+                    <p>Exclusive job postings and career advancement opportunities</p>
+                </div>
+                <div class="alumni-feature fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Continuing Education</h3>
+                    <p>Special discounts on advanced courses and workshops</p>
+                </div>
+                <div class="alumni-feature fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Mentorship Program</h3>
+                    <p>Opportunity to mentor current students and give back</p>
+                </div>
+            </div>
+
+            <div class="alumni-cta">
+                <div class="cta-content">
+                    <h3>Are you a RAAS Campus Alumni?</h3>
+                    <p>Join our growing network of successful professionals and stay connected with your alma mater</p>
+                    <a href="contact.html" class="btn btn-primary">Join Alumni Network</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-icon">RC</div>
+                        <span class="logo-text">RAAS CAMPUS <span class="logo-sub">KORANGI</span></span>
+                    </div>
+                    <p class="footer-description">Empowering Karachi through practical education, skills development, and character building since 2010.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Programs</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Programs</h4>
+                    <ul class="footer-links">
+                        <li><a href="courses.html#it">Information Technology</a></li>
+                        <li><a href="courses.html#business">Business Administration</a></li>
+                        <li><a href="courses.html#design">Graphic Design</a></li>
+                        <li><a href="courses.html">All Courses</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Korangi Crossing, Karachi, Pakistan</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+92 21 34567890</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@raascampus.edu.pk</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon - Sat: 8:00 AM - 6:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 RAAS Campus Korangi. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                        <a href="terms.html">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Success stories filtering
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const storyCards = document.querySelectorAll('.success-story-card');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const filter = this.getAttribute('data-filter');
+                    
+                    // Update active button
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Filter stories
+                    storyCards.forEach(card => {
+                        if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                            card.style.display = 'flex';
+                            setTimeout(() => {
+                                card.style.opacity = '1';
+                                card.style.transform = 'translateY(0)';
+                            }, 100);
+                        } else {
+                            card.style.opacity = '0';
+                            card.style.transform = 'translateY(20px)';
+                            setTimeout(() => {
+                                card.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

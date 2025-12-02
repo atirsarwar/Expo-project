@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - RAAS CAMPUS KORANGI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-circle"></div>
+                <h2>RAAS CAMPUS</h2>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" class="logo-link">
+                    <div class="logo-icon">RC</div>
+                    <span class="logo-text">RAAS CAMPUS <span class="logo-sub">KORANGI</span></span>
+                </a>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <div class="nav-dropdown">
+                    <a href="about.html" class="nav-link">About <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="about.html">About Us</a>
+                        <a href="leadership.html">Leadership</a>
+                    </div>
+                </div>
+                <a href="courses.html" class="nav-link">Programs</a>
+                <a href="admissions.html" class="nav-link">Admissions</a>
+                <div class="nav-dropdown">
+                    <a href="campus-korangi.html" class="nav-link">Campus <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="campus-korangi.html">Campus Korangi</a>
+                        <a href="facilities.html">Facilities</a>
+                        <a href="teachers.html">Our Teachers</a>
+                        <a href="student-life.html">Student Life</a>
+                        <a href="achievements.html">Achievements</a>
+                    </div>
+                </div>
+                <a href="news.html" class="nav-link">News & Events</a>
+                <a href="success-stories.html" class="nav-link">Success Stories</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+                <a href="donate.html" class="nav-btn">Donate Now</a>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="fade-in">Contact Us</h1>
+                <p class="fade-in">Get in touch with RAAS Campus Korangi - we're here to help you</p>
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Contact</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="contact-info-grid">
+                <div class="contact-info-card fade-in">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Visit Our Campus</h3>
+                    <p>Korangi Crossing<br>Karachi, Pakistan</p>
+                    <a href="#location" class="contact-link">Get Directions <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="contact-info-card fade-in">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Call Us</h3>
+                    <p>+92 21 34567890<br>+92 21 34567891</p>
+                    <a href="tel:+922134567890" class="contact-link">Call Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="contact-info-card fade-in">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p>info@raascampus.edu.pk<br>admissions@raascampus.edu.pk</p>
+                    <a href="mailto:info@raascampus.edu.pk" class="contact-link">Send Email <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="contact-info-card fade-in">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Office Hours</h3>
+                    <p>Monday - Saturday<br>8:00 AM - 6:00 PM</p>
+                    <a href="#visit" class="contact-link">Plan Visit <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & Map -->
+    <section class="contact-main-section">
+        <div class="container">
+            <div class="contact-main-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container slide-in-left">
+                    <div class="form-header">
+                        <h2>Send Us a Message</h2>
+                        <p>Fill out the form below and we'll get back to you as soon as possible</p>
+                    </div>
+
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactName">Full Name *</label>
+                                <input type="text" id="contactName" name="contactName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">Email Address *</label>
+                                <input type="email" id="contactEmail" name="contactEmail" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactPhone">Phone Number *</label>
+                                <input type="tel" id="contactPhone" name="contactPhone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactSubject">Subject *</label>
+                                <select id="contactSubject" name="contactSubject" required>
+                                    <option value="">Select Subject</option>
+                                    <option value="admission">Admission Inquiry</option>
+                                    <option value="course">Course Information</option>
+                                    <option value="fee">Fee Structure</option>
+                                    <option value="scholarship">Scholarship</option>
+                                    <option value="partnership">Partnership</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="complaint">Complaint</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactProgram">Program of Interest</label>
+                            <select id="contactProgram" name="contactProgram">
+                                <option value="">Select Program (Optional)</option>
+                                <option value="it">Information Technology</option>
+                                <option value="business">Business Administration</option>
+                                <option value="design">Graphic Design</option>
+                                <option value="english">English Language</option>
+                                <option value="marketing">Digital Marketing</option>
+                                <option value="mobile">Mobile App Development</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactMessage">Message *</label>
+                            <textarea id="contactMessage" name="contactMessage" rows="6" placeholder="Please provide details about your inquiry..." required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="newsletterConsent" name="newsletterConsent">
+                                <span class="checkmark"></span>
+                                I would like to receive updates about courses and events
+                            </label>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary btn-large">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Map & Additional Info -->
+                <div class="contact-sidebar slide-in-right">
+                    <!-- Campus Map -->
+                    <div class="map-container" id="location">
+                        <div class="map-placeholder">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <h4>Campus Location</h4>
+                            <p>Korangi Crossing, Karachi</p>
+                            <div class="map-actions">
+                                <a href="https://maps.google.com" target="_blank" class="btn btn-outline">
+                                    <i class="fas fa-directions"></i>
+                                    Open in Google Maps
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Department Contacts -->
+                    <div class="department-contacts">
+                        <h4>Department Contacts</h4>
+                        
+                        <div class="dept-contact-item">
+                            <div class="dept-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="dept-info">
+                                <h5>Admissions Office</h5>
+                                <p>admissions@raascampus.edu.pk</p>
+                                <span>+92 21 34567892</span>
+                            </div>
+                        </div>
+
+                        <div class="dept-contact-item">
+                            <div class="dept-icon">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <div class="dept-info">
+                                <h5>Academic Department</h5>
+                                <p>academics@raascampus.edu.pk</p>
+                                <span>+92 21 34567893</span>
+                            </div>
+                        </div>
+
+                        <div class="dept-contact-item">
+                            <div class="dept-icon">
+                                <i class="fas fa-hand-holding-usd"></i>
+                            </div>
+                            <div class="dept-info">
+                                <h5>Accounts Department</h5>
+                                <p>accounts@raascampus.edu.pk</p>
+                                <span>+92 21 34567894</span>
+                            </div>
+                        </div>
+
+                        <div class="dept-contact-item">
+                            <div class="dept-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="dept-info">
+                                <h5>Student Affairs</h5>
+                                <p>studentaffairs@raascampus.edu.pk</p>
+                                <span>+92 21 34567895</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="contact-quick-links">
+                        <h4>Quick Resources</h4>
+                        <ul>
+                            <li><a href="admissions.html"><i class="fas fa-arrow-right"></i> Admission Process</a></li>
+                            <li><a href="courses.html"><i class="fas fa-arrow-right"></i> View All Programs</a></li>
+                            <li><a href="fee-structure.html"><i class="fas fa-arrow-right"></i> Fee Structure</a></li>
+                            <li><a href="faq.html"><i class="fas fa-arrow-right"></i> Frequently Asked Questions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visit Planning -->
+    <section class="visit-planning" id="visit">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Plan Your Visit</h2>
+                <p class="section-description">We welcome visitors to our campus. Here's everything you need to know before you visit</p>
+            </div>
+
+            <div class="visit-options">
+                <div class="visit-option fade-in">
+                    <div class="visit-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h4>Campus Tour</h4>
+                    <p>Schedule a guided tour of our facilities and meet with our faculty</p>
+                    <ul>
+                        <li>See classrooms and labs</li>
+                        <li>Meet current students</li>
+                        <li>Get program details</li>
+                    </ul>
+                    <button class="btn btn-outline schedule-tour">Schedule Tour</button>
+                </div>
+
+                <div class="visit-option fade-in">
+                    <div class="visit-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h4>Admission Counseling</h4>
+                    <p>One-on-one session with our admission counselors</p>
+                    <ul>
+                        <li>Program selection guidance</li>
+                        <li>Admission requirements</li>
+                        <li>Career counseling</li>
+                    </ul>
+                    <button class="btn btn-outline schedule-counseling">Book Session</button>
+                </div>
+
+                <div class="visit-option fade-in">
+                    <div class="visit-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h4>Demo Class</h4>
+                    <p>Experience our teaching methodology with a free demo class</p>
+                    <ul>
+                        <li>Interactive session</li>
+                        <li>Meet instructors</li>
+                        <li>Course preview</li>
+                    </ul>
+                    <button class="btn btn-outline schedule-demo">Book Demo Class</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="contact-faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-description">Quick answers to common questions about admissions and campus life</p>
+            </div>
+
+            <div class="faq-grid">
+                <div class="faq-column">
+                    <div class="faq-item fade-in">
+                        <div class="faq-question">
+                            <h4>What are the admission requirements?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Minimum requirement is Matriculation or equivalent. Some programs may have additional requirements. Please check the specific program details for complete information.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item fade-in">
+                        <div class="faq-question">
+                            <h4>Is financial aid available?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, we offer merit-based and need-based scholarships. Contact our admission office for eligibility criteria and application process.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item fade-in">
+                        <div class="faq-question">
+                            <h4>What are the class timings?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We offer morning (9:00 AM - 12:00 PM) and evening (2:00 PM - 5:00 PM) shifts for most programs. Specific timings may vary by course.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-column">
+                    <div class="faq-item fade-in">
+                        <div class="faq-question">
+                            <h4>Do you provide placement assistance?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, we have a dedicated placement cell that helps students with job placements, internships, and career counseling.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item fade-in">
+                        <div class="faq-question">
+                            <h4>Can I pay fees in installments?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, we offer flexible installment plans for all programs. The number of installments varies by program duration.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item fade-in">
+                        <div class="faq-question">
+                            <h4>What facilities are available on campus?</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our campus features modern classrooms, computer labs, library, sports facilities, cafeteria, and student common areas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-cta">
+                <p>Still have questions? <a href="#contactForm">Send us a message</a> or call us at <strong>+92 21 34567890</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Contact -->
+    <section class="emergency-contact">
+        <div class="container">
+            <div class="emergency-content">
+                <div class="emergency-icon">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <div class="emergency-info">
+                    <h3>Emergency Contact</h3>
+                    <p>For urgent matters outside office hours, please contact:</p>
+                    <div class="emergency-numbers">
+                        <span class="emergency-number">+92 300 1234567</span>
+                        <span class="emergency-note">Available 24/7 for emergencies</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-icon">RC</div>
+                        <span class="logo-text">RAAS CAMPUS <span class="logo-sub">KORANGI</span></span>
+                    </div>
+                    <p class="footer-description">Empowering Karachi through practical education, skills development, and character building since 2010.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Programs</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Programs</h4>
+                    <ul class="footer-links">
+                        <li><a href="courses.html#it">Information Technology</a></li>
+                        <li><a href="courses.html#business">Business Administration</a></li>
+                        <li><a href="courses.html#design">Graphic Design</a></li>
+                        <li><a href="courses.html">All Courses</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Korangi Crossing, Karachi, Pakistan</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+92 21 34567890</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@raascampus.edu.pk</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon - Sat: 8:00 AM - 6:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 RAAS Campus Korangi. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                        <a href="terms.html">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Visit Scheduling Modal -->
+    <div class="modal" id="scheduleModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Schedule Your Visit</h3>
+                <button class="modal-close" id="modalClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="scheduleForm">
+                    <div class="form-group">
+                        <label for="visitType">Visit Type</label>
+                        <select id="visitType" name="visitType" required>
+                            <option value="">Select Visit Type</option>
+                            <option value="tour">Campus Tour</option>
+                            <option value="counseling">Admission Counseling</option>
+                            <option value="demo">Demo Class</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="visitDate">Preferred Date</label>
+                            <input type="date" id="visitDate" name="visitDate" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="visitTime">Preferred Time</label>
+                            <select id="visitTime" name="visitTime" required>
+                                <option value="">Select Time</option>
+                                <option value="10:00">10:00 AM</option>
+                                <option value="11:00">11:00 AM</option>
+                                <option value="14:00">2:00 PM</option>
+                                <option value="15:00">3:00 PM</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Schedule Visit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/forms.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Contact page functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contactForm');
+            const scheduleForm = document.getElementById('scheduleForm');
+            const scheduleModal = document.getElementById('scheduleModal');
+            const modalClose = document.getElementById('modalClose');
+            const scheduleButtons = document.querySelectorAll('.schedule-tour, .schedule-counseling, .schedule-demo');
+            const faqQuestions = document.querySelectorAll('.faq-question');
+
+            // Contact form submission
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                const submitBtn = this.querySelector('button[type="submit"]');
+                const originalText = submitBtn.innerHTML;
+                
+                submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+                submitBtn.disabled = true;
+
+                // Simulate form submission
+                setTimeout(() => {
+                    alert('Thank you for your message! We will get back to you within 24 hours.');
+                    contactForm.reset();
+                    
+                    submitBtn.innerHTML = originalText;
+                    submitBtn.disabled = false;
+                }, 2000);
+            });
+
+            // Schedule visit modal
+            scheduleButtons.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    scheduleModal.style.display = 'flex';
+                    setTimeout(() => {
+                        scheduleModal.classList.add('active');
+                    }, 10);
+                });
+            });
+
+            // Close modal
+            modalClose.addEventListener('click', closeModal);
+            scheduleModal.addEventListener('click', function(e) {
+                if (e.target === scheduleModal) {
+                    closeModal();
+                }
+            });
+
+            function closeModal() {
+                scheduleModal.classList.remove('active');
+                setTimeout(() => {
+                    scheduleModal.style.display = 'none';
+                }, 300);
+            }
+
+            // Schedule form submission
+            scheduleForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                alert('Thank you! Your visit has been scheduled. We will confirm via email.');
+                closeModal();
+                scheduleForm.reset();
+            });
+
+            // FAQ functionality
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    const icon = this.querySelector('i');
+                    
+                    this.parentElement.classList.toggle('active');
+                    
+                    if (this.parentElement.classList.contains('active')) {
+                        icon.className = 'fas fa-chevron-up';
+                        answer.style.maxHeight = answer.scrollHeight + 'px';
+                    } else {
+                        icon.className = 'fas fa-chevron-down';
+                        answer.style.maxHeight = '0';
+                    }
+                });
+            });
+
+            // Set minimum date for scheduling to today
+            const today = new Date().toISOString().split('T')[0];
+            document.getElementById('visitDate').min = today;
+        });
+    </script>
+</body>
+</html>

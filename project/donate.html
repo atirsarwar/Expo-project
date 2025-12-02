@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - RAAS CAMPUS KORANGI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-circle"></div>
+                <h2>RAAS CAMPUS</h2>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" class="logo-link">
+                    <div class="logo-icon">RC</div>
+                    <span class="logo-text">RAAS CAMPUS <span class="logo-sub">KORANGI</span></span>
+                </a>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <div class="nav-dropdown">
+                    <a href="about.html" class="nav-link">About <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="about.html">About Us</a>
+                        <a href="leadership.html">Leadership</a>
+                    </div>
+                </div>
+                <a href="courses.html" class="nav-link">Programs</a>
+                <a href="admissions.html" class="nav-link">Admissions</a>
+                <div class="nav-dropdown">
+                    <a href="campus-korangi.html" class="nav-link">Campus <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="campus-korangi.html">Campus Korangi</a>
+                        <a href="facilities.html">Facilities</a>
+                        <a href="teachers.html">Our Teachers</a>
+                        <a href="student-life.html">Student Life</a>
+                        <a href="achievements.html">Achievements</a>
+                    </div>
+                </div>
+                <a href="news.html" class="nav-link">News & Events</a>
+                <a href="success-stories.html" class="nav-link">Success Stories</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="donate.html" class="nav-btn active">Donate Now</a>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="fade-in">Support Our Mission</h1>
+                <p class="fade-in">Your donation helps us provide quality education to underprivileged youth in Karachi</p>
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Donate</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section class="impact-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Your Impact</span>
+                <h2 class="section-title">Transform Lives Through Education</h2>
+                <p class="section-description">Every donation makes a difference in the lives of deserving students</p>
+            </div>
+
+            <div class="impact-stats">
+                <div class="impact-card fade-in">
+                    <div class="impact-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>2500+</h3>
+                    <p>Students Educated</p>
+                </div>
+
+                <div class="impact-card fade-in">
+                    <div class="impact-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>85%</h3>
+                    <p>Employment Rate</p>
+                </div>
+
+                <div class="impact-card fade-in">
+                    <div class="impact-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>500+</h3>
+                    <p>Families Impacted</p>
+                </div>
+
+                <div class="impact-card fade-in">
+                    <div class="impact-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3>100%</h3>
+                    <p>Transparent Use</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donation Options -->
+    <section class="donation-options">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Choose Your Donation</h2>
+                <p class="section-description">Select from our predefined donation options or enter a custom amount</p>
+            </div>
+
+            <div class="donation-cards">
+                <div class="donation-card fade-in">
+                    <div class="donation-header">
+                        <h3>Sponsor a Student</h3>
+                        <div class="donation-amount">PKR 15,000</div>
+                    </div>
+                    <p>Cover full course fees for one deserving student</p>
+                    <ul class="donation-features">
+                        <li><i class="fas fa-check"></i> Full course sponsorship</li>
+                        <li><i class="fas fa-check"></i> Study materials included</li>
+                        <li><i class="fas fa-check"></i> Progress reports</li>
+                    </ul>
+                    <button class="btn btn-primary donation-select" data-amount="15000">Select This Option</button>
+                </div>
+
+                <div class="donation-card fade-in featured">
+                    <div class="donation-badge">Most Popular</div>
+                    <div class="donation-header">
+                        <h3>Monthly Support</h3>
+                        <div class="donation-amount">PKR 5,000<span>/month</span></div>
+                    </div>
+                    <p>Provide continuous support for our educational programs</p>
+                    <ul class="donation-features">
+                        <li><i class="fas fa-check"></i> Sustained impact</li>
+                        <li><i class="fas fa-check"></i> Regular updates</li>
+                        <li><i class="fas fa-check"></i> Tax benefits</li>
+                    </ul>
+                    <button class="btn btn-primary donation-select" data-amount="5000" data-recurring="true">Select This Option</button>
+                </div>
+
+                <div class="donation-card fade-in">
+                    <div class="donation-header">
+                        <h3>Infrastructure Fund</h3>
+                        <div class="donation-amount">PKR 25,000</div>
+                    </div>
+                    <p>Help us upgrade facilities and learning resources</p>
+                    <ul class="donation-features">
+                        <li><i class="fas fa-check"></i> Lab equipment</li>
+                        <li><i class="fas fa-check"></i> Library books</li>
+                        <li><i class="fas fa-check"></i> Classroom upgrades</li>
+                    </ul>
+                    <button class="btn btn-primary donation-select" data-amount="25000">Select This Option</button>
+                </div>
+            </div>
+
+            <!-- Custom Amount -->
+            <div class="custom-donation fade-in">
+                <div class="custom-donation-header">
+                    <h3>Or Enter Custom Amount</h3>
+                </div>
+                <div class="custom-amount-input">
+                    <div class="input-group">
+                        <span class="input-prefix">PKR</span>
+                        <input type="number" id="customAmount" placeholder="Enter amount" min="100">
+                    </div>
+                    <button class="btn btn-outline" id="customDonate">Donate Custom Amount</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donation Form -->
+    <section class="donation-form-section">
+        <div class="container">
+            <div class="donation-form-container">
+                <div class="form-header">
+                    <h2>Complete Your Donation</h2>
+                    <p>Fill in your details to make a secure donation</p>
+                </div>
+
+                <form id="donationForm" class="donation-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="donorName">Full Name *</label>
+                            <input type="text" id="donorName" name="donorName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="donorEmail">Email Address *</label>
+                            <input type="email" id="donorEmail" name="donorEmail" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="donorPhone">Phone Number *</label>
+                            <input type="tel" id="donorPhone" name="donorPhone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="donorCNIC">CNIC (Optional)</label>
+                            <input type="text" id="donorCNIC" name="donorCNIC" placeholder="For tax receipt">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="donationPurpose">Donation Purpose</label>
+                        <select id="donationPurpose" name="donationPurpose">
+                            <option value="general">General Fund</option>
+                            <option value="scholarship">Student Scholarship</option>
+                            <option value="infrastructure">Infrastructure Development</option>
+                            <option value="specific">Specific Program Support</option>
+                        </select>
+                    </div>
+
+                    <div class="donation-amount-display">
+                        <h4>Donation Amount</h4>
+                        <div class="amount-display">
+                            <span id="displayAmount">PKR 0</span>
+                            <span id="recurringText" class="recurring-text"></span>
+                        </div>
+                    </div>
+
+                    <div class="payment-methods">
+                        <h4>Payment Method</h4>
+                        <div class="payment-options">
+                            <label class="payment-option">
+                                <input type="radio" name="paymentMethod" value="card" required>
+                                <div class="payment-card">
+                                    <i class="fas fa-credit-card"></i>
+                                    <span>Credit/Debit Card</span>
+                                </div>
+                            </label>
+                            <label class="payment-option">
+                                <input type="radio" name="paymentMethod" value="bank" required>
+                                <div class="payment-card">
+                                    <i class="fas fa-university"></i>
+                                    <span>Bank Transfer</span>
+                                </div>
+                            </label>
+                            <label class="payment-option">
+                                <input type="radio" name="paymentMethod" value="jazzcash" required>
+                                <div class="payment-card">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    <span>JazzCash</span>
+                                </div>
+                            </label>
+                            <label class="payment-option">
+                                <input type="radio" name="paymentMethod" value="easypaisa" required>
+                                <div class="payment-card">
+                                    <i class="fas fa-wallet"></i>
+                                    <span>EasyPaisa</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="anonymous" name="anonymous">
+                            <span class="checkmark"></span>
+                            I would like to make this donation anonymously
+                        </label>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="newsletter" name="newsletter" checked>
+                            <span class="checkmark"></span>
+                            I would like to receive updates about the impact of my donation
+                        </label>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <i class="fas fa-lock"></i>
+                            Complete Donation
+                        </button>
+                        <p class="security-note">
+                            <i class="fas fa-shield-alt"></i>
+                            Your donation is secure and encrypted
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tax Benefits -->
+    <section class="tax-benefits">
+        <div class="container">
+            <div class="benefits-grid">
+                <div class="benefit-card fade-in">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    <h3>Tax Deductible</h3>
+                    <p>All donations to RAAS Campus are tax-deductible under Section 61 of Income Tax Ordinance</p>
+                </div>
+                <div class="benefit-card fade-in">
+                    <i class="fas fa-receipt"></i>
+                    <h3>Official Receipt</h3>
+                    <p>Receive an official donation receipt for tax purposes via email</p>
+                </div>
+                <div class="benefit-card fade-in">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Impact Report</h3>
+                    <p>Get detailed reports on how your donation is making a difference</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Ways to Help -->
+    <section class="other-ways">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Other Ways to Support</h2>
+                <p class="section-description">There are multiple ways you can contribute to our mission</p>
+            </div>
+
+            <div class="support-options">
+                <div class="support-card fade-in">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>Volunteer</h3>
+                    <p>Share your skills and time with our students</p>
+                    <a href="volunteer.html" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="support-card fade-in">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Spread the Word</h3>
+                    <p>Help us reach more potential supporters</p>
+                    <div class="social-share">
+                        <button class="social-btn facebook"><i class="fab fa-facebook-f"></i></button>
+                        <button class="social-btn twitter"><i class="fab fa-twitter"></i></button>
+                        <button class="social-btn linkedin"><i class="fab fa-linkedin-in"></i></button>
+                    </div>
+                </div>
+                <div class="support-card fade-in">
+                    <i class="fas fa-building"></i>
+                    <h3>Corporate Partnership</h3>
+                    <p>Partner with us for CSR initiatives</p>
+                    <a href="contact.html" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-icon">RC</div>
+                        <span class="logo-text">RAAS CAMPUS <span class="logo-sub">KORANGI</span></span>
+                    </div>
+                    <p class="footer-description">Empowering Karachi through practical education, skills development, and character building since 2010.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Programs</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Programs</h4>
+                    <ul class="footer-links">
+                        <li><a href="courses.html#it">Information Technology</a></li>
+                        <li><a href="courses.html#business">Business Administration</a></li>
+                        <li><a href="courses.html#design">Graphic Design</a></li>
+                        <li><a href="courses.html">All Courses</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Korangi Crossing, Karachi, Pakistan</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+92 21 34567890</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@raascampus.edu.pk</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon - Sat: 8:00 AM - 6:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 RAAS Campus Korangi. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                        <a href="terms.html">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/forms.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Donation functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const donationSelects = document.querySelectorAll('.donation-select');
+            const customAmountInput = document.getElementById('customAmount');
+            const customDonateBtn = document.getElementById('customDonate');
+            const displayAmount = document.getElementById('displayAmount');
+            const recurringText = document.getElementById('recurringText');
+            const donationForm = document.getElementById('donationForm');
+
+            let selectedAmount = 0;
+            let isRecurring = false;
+
+            // Predefined donation selection
+            donationSelects.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    selectedAmount = parseInt(this.getAttribute('data-amount'));
+                    isRecurring = this.getAttribute('data-recurring') === 'true';
+                    
+                    updateAmountDisplay();
+                    scrollToForm();
+                });
+            });
+
+            // Custom amount donation
+            customDonateBtn.addEventListener('click', function() {
+                const amount = parseInt(customAmountInput.value);
+                if (amount && amount >= 100) {
+                    selectedAmount = amount;
+                    isRecurring = false;
+                    updateAmountDisplay();
+                    scrollToForm();
+                } else {
+                    alert('Please enter a valid amount (minimum PKR 100)');
+                }
+            });
+
+            // Form submission
+            donationForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                if (selectedAmount === 0) {
+                    alert('Please select a donation amount first');
+                    return;
+                }
+
+                // Show loading state
+                const submitBtn = this.querySelector('button[type="submit"]');
+                const originalText = submitBtn.innerHTML;
+                submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Processing...';
+                submitBtn.disabled = true;
+
+                // Simulate payment processing
+                setTimeout(() => {
+                    alert('Thank you for your generous donation of PKR ' + selectedAmount + '! Your support will help transform lives through education.');
+                    donationForm.reset();
+                    selectedAmount = 0;
+                    updateAmountDisplay();
+                    
+                    submitBtn.innerHTML = originalText;
+                    submitBtn.disabled = false;
+                }, 2000);
+            });
+
+            function updateAmountDisplay() {
+                displayAmount.textContent = 'PKR ' + selectedAmount.toLocaleString();
+                recurringText.textContent = isRecurring ? '/month' : '';
+                recurringText.style.display = isRecurring ? 'inline' : 'none';
+            }
+
+            function scrollToForm() {
+                document.querySelector('.donation-form-section').scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+
+            // Social sharing
+            document.querySelectorAll('.social-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const platform = this.classList[1];
+                    let url = '';
+                    
+                    switch(platform) {
+                        case 'facebook':
+                            url = 'https://facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href);
+                            break;
+                        case 'twitter':
+                            url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent('Support RAAS Campus Korangi - Empowering Youth Through Education');
+                            break;
+                        case 'linkedin':
+                            url = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(window.location.href);
+                            break;
+                    }
+                    
+                    window.open(url, '_blank', 'width=600,height=400');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

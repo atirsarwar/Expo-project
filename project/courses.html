@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs & Courses - RAAS CAMPUS KORANGI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-circle"></div>
+                <h2>RAAS CAMPUS</h2>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" class="logo-link">
+                    <div class="logo-icon">RC</div>
+                    <span class="logo-text">RAAS CAMPUS <span class="logo-sub">KORANGI</span></span>
+                </a>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <div class="nav-dropdown">
+                    <a href="about.html" class="nav-link">About <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="about.html">About Us</a>
+                        <a href="leadership.html">Leadership</a>
+                    </div>
+                </div>
+                <a href="courses.html" class="nav-link active">Programs</a>
+                <a href="admissions.html" class="nav-link">Admissions</a>
+                <div class="nav-dropdown">
+                    <a href="campus-korangi.html" class="nav-link">Campus <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="campus-korangi.html">Campus Korangi</a>
+                        <a href="facilities.html">Facilities</a>
+                        <a href="teachers.html">Our Teachers</a>
+                        <a href="student-life.html">Student Life</a>
+                        <a href="achievements.html">Achievements</a>
+                    </div>
+                </div>
+                <a href="news.html" class="nav-link">News & Events</a>
+                <a href="success-stories.html" class="nav-link">Success Stories</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="donate.html" class="nav-btn">Donate Now</a>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="fade-in">Programs & Courses</h1>
+                <p class="fade-in">Comprehensive courses designed to build skills for successful careers</p>
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Programs</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Overview -->
+    <section class="programs-overview">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Programs</span>
+                <h2 class="section-title">Transform Your Future</h2>
+                <p class="section-description">Choose from our industry-relevant programs designed to equip you with practical skills for today's job market</p>
+            </div>
+
+            <!-- Program Categories -->
+            <div class="program-categories">
+                <div class="category-nav">
+                    <button class="category-btn active" data-category="all">All Programs</button>
+                    <button class="category-btn" data-category="technology">Technology</button>
+                    <button class="category-btn" data-category="business">Business</button>
+                    <button class="category-btn" data-category="creative">Creative Arts</button>
+                    <button class="category-btn" data-category="language">Language</button>
+                </div>
+            </div>
+
+            <!-- Programs Grid -->
+            <div class="programs-detailed-grid">
+                <!-- Information Technology -->
+                <div class="program-detailed-card fade-in" data-category="technology" id="it">
+                    <div class="program-header">
+                        <div class="program-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="program-badge">Most Popular</div>
+                    </div>
+                    <h3>Information Technology</h3>
+                    <p class="program-description">Comprehensive IT training covering programming, web development, software engineering, and database management.</p>
+                    
+                    <div class="program-details">
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <span>6 Months Duration</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-user-graduate"></i>
+                            <span>Certificate Program</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-money-bill-wave"></i>
+                            <span>PKR 15,000</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Job Ready Skills</span>
+                        </div>
+                    </div>
+
+                    <div class="curriculum-section">
+                        <h4>Curriculum Highlights</h4>
+                        <ul class="curriculum-list">
+                            <li>Programming Fundamentals (Python, Java)</li>
+                            <li>Web Development (HTML, CSS, JavaScript)</li>
+                            <li>Database Management (MySQL)</li>
+                            <li>Software Engineering Principles</li>
+                            <li>Project Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="career-opportunities">
+                        <h4>Career Opportunities</h4>
+                        <div class="career-tags">
+                            <span class="career-tag">Web Developer</span>
+                            <span class="career-tag">Software Engineer</span>
+                            <span class="career-tag">IT Support</span>
+                            <span class="career-tag">Database Admin</span>
+                        </div>
+                    </div>
+
+                    <div class="program-actions">
+                        <a href="registration.html" class="btn btn-primary">Apply Now</a>
+                        <a href="#it-details" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Business Administration -->
+                <div class="program-detailed-card fade-in" data-category="business" id="business">
+                    <div class="program-header">
+                        <div class="program-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <h3>Business Administration</h3>
+                    <p class="program-description">Comprehensive business management training covering accounting, marketing, entrepreneurship, and management principles.</p>
+                    
+                    <div class="program-details">
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <span>8 Months Duration</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-user-graduate"></i>
+                            <span>Diploma Program</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-money-bill-wave"></i>
+                            <span>PKR 12,000</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Management Focus</span>
+                        </div>
+                    </div>
+
+                    <div class="curriculum-section">
+                        <h4>Curriculum Highlights</h4>
+                        <ul class="curriculum-list">
+                            <li>Business Management Principles</li>
+                            <li>Accounting & Finance</li>
+                            <li>Marketing & Sales</li>
+                            <li>Entrepreneurship</li>
+                            <li>Business Communication</li>
+                        </ul>
+                    </div>
+
+                    <div class="career-opportunities">
+                        <h4>Career Opportunities</h4>
+                        <div class="career-tags">
+                            <span class="career-tag">Business Manager</span>
+                            <span class="career-tag">Accountant</span>
+                            <span class="career-tag">Marketing Executive</span>
+                            <span class="career-tag">Entrepreneur</span>
+                        </div>
+                    </div>
+
+                    <div class="program-actions">
+                        <a href="registration.html" class="btn btn-primary">Apply Now</a>
+                        <a href="#business-details" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Graphic Design -->
+                <div class="program-detailed-card fade-in" data-category="creative" id="design">
+                    <div class="program-header">
+                        <div class="program-icon">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p class="program-description">Creative design training covering digital art, branding, typography, and multimedia design using industry-standard tools.</p>
+                    
+                    <div class="program-details">
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <span>4 Months Duration</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-user-graduate"></i>
+                            <span>Certificate Program</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-money-bill-wave"></i>
+                            <span>PKR 10,000</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Portfolio Development</span>
+                        </div>
+                    </div>
+
+                    <div class="curriculum-section">
+                        <h4>Curriculum Highlights</h4>
+                        <ul class="curriculum-list">
+                            <li>Adobe Creative Suite (Photoshop, Illustrator)</li>
+                            <li>Digital Illustration & Typography</li>
+                            <li>Brand Identity Design</li>
+                            <li>UI/UX Design Principles</li>
+                            <li>Portfolio Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="career-opportunities">
+                        <h4>Career Opportunities</h4>
+                        <div class="career-tags">
+                            <span class="career-tag">Graphic Designer</span>
+                            <span class="career-tag">UI/UX Designer</span>
+                            <span class="career-tag">Brand Designer</span>
+                            <span class="career-tag">Digital Artist</span>
+                        </div>
+                    </div>
+
+                    <div class="program-actions">
+                        <a href="registration.html" class="btn btn-primary">Apply Now</a>
+                        <a href="#design-details" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- English Language -->
+                <div class="program-detailed-card fade-in" data-category="language">
+                    <div class="program-header">
+                        <div class="program-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                    </div>
+                    <h3>English Language Course</h3>
+                    <p class="program-description">Comprehensive English language training focusing on communication skills, business English, and professional development.</p>
+                    
+                    <div class="program-details">
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <span>3 Months Duration</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-user-graduate"></i>
+                            <span>Certificate Program</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-money-bill-wave"></i>
+                            <span>PKR 8,000</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Communication Skills</span>
+                        </div>
+                    </div>
+
+                    <div class="curriculum-section">
+                        <h4>Curriculum Highlights</h4>
+                        <ul class="curriculum-list">
+                            <li>Speaking & Pronunciation</li>
+                            <li>Business Communication</li>
+                            <li>Writing Skills</li>
+                            <li>Listening Comprehension</li>
+                            <li>Professional Vocabulary</li>
+                        </ul>
+                    </div>
+
+                    <div class="career-opportunities">
+                        <h4>Career Benefits</h4>
+                        <div class="career-tags">
+                            <span class="career-tag">Better Communication</span>
+                            <span class="career-tag">Career Advancement</span>
+                            <span class="career-tag">International Opportunities</span>
+                        </div>
+                    </div>
+
+                    <div class="program-actions">
+                        <a href="registration.html" class="btn btn-primary">Apply Now</a>
+                        <a href="#english-details" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Digital Marketing -->
+                <div class="program-detailed-card fade-in" data-category="business">
+                    <div class="program-header">
+                        <div class="program-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p class="program-description">Modern marketing training covering social media, SEO, content marketing, and digital advertising strategies.</p>
+                    
+                    <div class="program-details">
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <span>5 Months Duration</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-user-graduate"></i>
+                            <span>Certificate Program</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-money-bill-wave"></i>
+                            <span>PKR 14,000</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Digital Skills</span>
+                        </div>
+                    </div>
+
+                    <div class="curriculum-section">
+                        <h4>Curriculum Highlights</h4>
+                        <ul class="curriculum-list">
+                            <li>Social Media Marketing</li>
+                            <li>Search Engine Optimization (SEO)</li>
+                            <li>Content Marketing</li>
+                            <li>Email Marketing</li>
+                            <li>Analytics & Reporting</li>
+                        </ul>
+                    </div>
+
+                    <div class="career-opportunities">
+                        <h4>Career Opportunities</h4>
+                        <div class="career-tags">
+                            <span class="career-tag">Digital Marketer</span>
+                            <span class="career-tag">Social Media Manager</span>
+                            <span class="career-tag">SEO Specialist</span>
+                            <span class="career-tag">Content Creator</span>
+                        </div>
+                    </div>
+
+                    <div class="program-actions">
+                        <a href="registration.html" class="btn btn-primary">Apply Now</a>
+                        <a href="#marketing-details" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Mobile App Development -->
+                <div class="program-detailed-card fade-in" data-category="technology">
+                    <div class="program-header">
+                        <div class="program-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <h3>Mobile App Development</h3>
+                    <p class="program-description">Specialized training in mobile application development for Android and iOS platforms using modern frameworks.</p>
+                    
+                    <div class="program-details">
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <span>7 Months Duration</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-user-graduate"></i>
+                            <span>Diploma Program</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-money-bill-wave"></i>
+                            <span>PKR 18,000</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>App Development</span>
+                        </div>
+                    </div>
+
+                    <div class="curriculum-section">
+                        <h4>Curriculum Highlights</h4>
+                        <ul class="curriculum-list">
+                            <li>Android Development (Java/Kotlin)</li>
+                            <li>iOS Development (Swift)</li>
+                            <li>React Native Framework</li>
+                            <li>App Store Deployment</li>
+                            <li>Mobile UI/UX Design</li>
+                        </ul>
+                    </div>
+
+                    <div class="career-opportunities">
+                        <h4>Career Opportunities</h4>
+                        <div class="career-tags">
+                            <span class="career-tag">Mobile Developer</span>
+                            <span class="career-tag">App Developer</span>
+                            <span class="career-tag">UI/UX Developer</span>
+                        </div>
+                    </div>
+
+                    <div class="program-actions">
+                        <a href="registration.html" class="btn btn-primary">Apply Now</a>
+                        <a href="#mobile-details" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Features -->
+    <section class="program-features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Our Programs?</h2>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-item fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Industry-Relevant Curriculum</h3>
+                    <p>Courses designed in collaboration with industry experts to ensure job-ready skills</p>
+                </div>
+                
+                <div class="feature-item fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Expert Instructors</h3>
+                    <p>Learn from experienced professionals with real-world industry experience</p>
+                </div>
+                
+                <div class="feature-item fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop-house"></i>
+                    </div>
+                    <h3>Practical Learning</h3>
+                    <p>Hands-on projects and real-world scenarios to build practical skills</p>
+                </div>
+                
+                <div class="feature-item fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Recognized Certification</h3>
+                    <p>Industry-recognized certificates that enhance your career prospects</p>
+                </div>
+                
+                <div class="feature-item fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Career Support</h3>
+                    <p>Job placement assistance and career counseling services</p>
+                </div>
+                
+                <div class="feature-item fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <h3>Affordable Fees</h3>
+                    <p>Quality education at affordable prices with flexible payment options</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Journey?</h2>
+                <p>Take the first step toward a successful career with our industry-relevant programs</p>
+                <div class="cta-buttons">
+                    <a href="registration.html" class="btn btn-light">Apply Now</a>
+                    <a href="contact.html" class="btn btn-outline-light">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-icon">RC</div>
+                        <span class="logo-text">RAAS CAMPUS <span class="logo-sub">KORANGI</span></span>
+                    </div>
+                    <p class="footer-description">Empowering Karachi through practical education, skills development, and character building since 2010.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Programs</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Programs</h4>
+                    <ul class="footer-links">
+                        <li><a href="courses.html#it">Information Technology</a></li>
+                        <li><a href="courses.html#business">Business Administration</a></li>
+                        <li><a href="courses.html#design">Graphic Design</a></li>
+                        <li><a href="courses.html">All Courses</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Korangi Crossing, Karachi, Pakistan</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+92 21 34567890</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@raascampus.edu.pk</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon - Sat: 8:00 AM - 6:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 RAAS Campus Korangi. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                        <a href="terms.html">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Program category filtering
+        document.addEventListener('DOMContentLoaded', function() {
+            const categoryBtns = document.querySelectorAll('.category-btn');
+            const programCards = document.querySelectorAll('.program-detailed-card');
+            
+            categoryBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    categoryBtns.forEach(b => b.classList.remove('active'));
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    const category = this.getAttribute('data-category');
+                    
+                    // Filter programs
+                    programCards.forEach(card => {
+                        if (category === 'all' || card.getAttribute('data-category') === category) {
+                            card.style.display = 'block';
+                            setTimeout(() => {
+                                card.style.opacity = '1';
+                                card.style.transform = 'translateY(0)';
+                            }, 100);
+                        } else {
+                            card.style.opacity = '0';
+                            card.style.transform = 'translateY(20px)';
+                            setTimeout(() => {
+                                card.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

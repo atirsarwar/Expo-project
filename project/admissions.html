@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions - RAAS CAMPUS KORANGI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-circle"></div>
+                <h2>RAAS CAMPUS</h2>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" class="logo-link">
+                    <div class="logo-icon">RC</div>
+                    <span class="logo-text">RAAS CAMPUS <span class="logo-sub">KORANGI</span></span>
+                </a>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <div class="nav-dropdown">
+                    <a href="about.html" class="nav-link">About <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="about.html">About Us</a>
+                        <a href="leadership.html">Leadership</a>
+                    </div>
+                </div>
+                <a href="courses.html" class="nav-link">Programs</a>
+                <a href="admissions.html" class="nav-link active">Admissions</a>
+                <div class="nav-dropdown">
+                    <a href="campus-korangi.html" class="nav-link">Campus <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="campus-korangi.html">Campus Korangi</a>
+                        <a href="facilities.html">Facilities</a>
+                        <a href="teachers.html">Our Teachers</a>
+                        <a href="student-life.html">Student Life</a>
+                        <a href="achievements.html">Achievements</a>
+                    </div>
+                </div>
+                <a href="news.html" class="nav-link">News & Events</a>
+                <a href="success-stories.html" class="nav-link">Success Stories</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="donate.html" class="nav-btn">Donate Now</a>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="fade-in">Admissions</h1>
+                <p class="fade-in">Start your educational journey with RAAS Campus Korangi</p>
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Admissions</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Process -->
+    <section class="admissions-process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Admission Process</span>
+                <h2 class="section-title">How to Apply</h2>
+                <p class="section-description">Follow these simple steps to join RAAS Campus Korangi</p>
+            </div>
+
+            <div class="process-steps">
+                <div class="process-step fade-in">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Explore Programs</h3>
+                        <p>Browse our courses and choose the program that matches your career goals and interests.</p>
+                    </div>
+                    <div class="step-action">
+                        <a href="courses.html" class="btn btn-outline">View Programs</a>
+                    </div>
+                </div>
+
+                <div class="process-step fade-in">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Check Eligibility</h3>
+                        <p>Review admission requirements and ensure you meet the criteria for your chosen program.</p>
+                    </div>
+                    <div class="step-action">
+                        <a href="#requirements" class="btn btn-outline">View Requirements</a>
+                    </div>
+                </div>
+
+                <div class="process-step fade-in">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Submit Application</h3>
+                        <p>Complete the online application form with your personal and educational details.</p>
+                    </div>
+                    <div class="step-action">
+                        <a href="registration.html" class="btn btn-outline">Apply Online</a>
+                    </div>
+                </div>
+
+                <div class="process-step fade-in">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Document Submission</h3>
+                        <p>Upload required documents including educational certificates and identification.</p>
+                    </div>
+                    <div class="step-action">
+                        <a href="#documents" class="btn btn-outline">View Documents</a>
+                    </div>
+                </div>
+
+                <div class="process-step fade-in">
+                    <div class="step-number">05</div>
+                    <div class="step-content">
+                        <h3>Interview & Assessment</h3>
+                        <p>Attend an interview and assessment session to determine program suitability.</p>
+                    </div>
+                </div>
+
+                <div class="process-step fade-in">
+                    <div class="step-number">06</div>
+                    <div class="step-content">
+                        <h3>Admission Confirmation</h3>
+                        <p>Receive admission offer and complete enrollment by paying fees.</p>
+                    </div>
+                    <div class="step-action">
+                        <a href="contact.html" class="btn btn-outline">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Requirements -->
+    <section class="admission-requirements" id="requirements">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Admission Requirements</h2>
+                <p class="section-description">General requirements for all programs at RAAS Campus Korangi</p>
+            </div>
+
+            <div class="requirements-grid">
+                <div class="requirement-card fade-in">
+                    <div class="requirement-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Educational Qualification</h3>
+                    <ul>
+                        <li>Minimum Matriculation or equivalent</li>
+                        <li>Relevant educational background</li>
+                        <li>Basic computer literacy</li>
+                    </ul>
+                </div>
+
+                <div class="requirement-card fade-in">
+                    <div class="requirement-icon">
+                        <i class="fas fa-id-card"></i>
+                    </div>
+                    <h3>Identification Documents</h3>
+                    <ul>
+                        <li>CNIC or B-Form copy</li>
+                        <li>Recent passport-size photographs</li>
+                        <li>Domicile certificate (if applicable)</li>
+                    </ul>
+                </div>
+
+                <div class="requirement-card fade-in">
+                    <div class="requirement-icon">
+                        <i class="fas fa-file-certificate"></i>
+                    </div>
+                    <h3>Educational Documents</h3>
+                    <ul>
+                        <li>Matric/O-level certificate</li>
+                        <li>Intermediate/A-level certificate</li>
+                        <li>Previous degree certificates</li>
+                    </ul>
+                </div>
+
+                <div class="requirement-card fade-in">
+                    <div class="requirement-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Additional Requirements</h3>
+                    <ul>
+                        <li>Personal interview</li>
+                        <li>Basic assessment test</li>
+                        <li>Program-specific requirements</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fee Structure -->
+    <section class="fee-structure">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Fee Structure</h2>
+                <p class="section-description">Affordable education with flexible payment options</p>
+            </div>
+
+            <div class="fee-table-container">
+                <table class="fee-table">
+                    <thead>
+                        <tr>
+                            <th>Program</th>
+                            <th>Duration</th>
+                            <th>Total Fee</th>
+                            <th>Installment Plan</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="fade-in">
+                            <td>Information Technology</td>
+                            <td>6 Months</td>
+                            <td>PKR 15,000</td>
+                            <td>3 Installments</td>
+                            <td><a href="registration.html" class="btn btn-small">Apply Now</a></td>
+                        </tr>
+                        <tr class="fade-in">
+                            <td>Business Administration</td>
+                            <td>8 Months</td>
+                            <td>PKR 12,000</td>
+                            <td>4 Installments</td>
+                            <td><a href="registration.html" class="btn btn-small">Apply Now</a></td>
+                        </tr>
+                        <tr class="fade-in">
+                            <td>Graphic Design</td>
+                            <td>4 Months</td>
+                            <td>PKR 10,000</td>
+                            <td>2 Installments</td>
+                            <td><a href="registration.html" class="btn btn-small">Apply Now</a></td>
+                        </tr>
+                        <tr class="fade-in">
+                            <td>English Language</td>
+                            <td>3 Months</td>
+                            <td>PKR 8,000</td>
+                            <td>2 Installments</td>
+                            <td><a href="registration.html" class="btn btn-small">Apply Now</a></td>
+                        </tr>
+                        <tr class="fade-in">
+                            <td>Digital Marketing</td>
+                            <td>5 Months</td>
+                            <td>PKR 14,000</td>
+                            <td>3 Installments</td>
+                            <td><a href="registration.html" class="btn btn-small">Apply Now</a></td>
+                        </tr>
+                        <tr class="fade-in">
+                            <td>Mobile App Development</td>
+                            <td>7 Months</td>
+                            <td>PKR 18,000</td>
+                            <td>4 Installments</td>
+                            <td><a href="registration.html" class="btn btn-small">Apply Now</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="fee-notes">
+                <div class="note-card fade-in">
+                    <i class="fas fa-info-circle"></i>
+                    <h4>Scholarship Opportunities</h4>
+                    <p>Merit-based and need-based scholarships available for deserving students. Contact admission office for details.</p>
+                </div>
+                <div class="note-card fade-in">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <h4>Payment Flexibility</h4>
+                    <p>Customized payment plans available for students facing financial constraints.</p>
+                </div>
+                <div class="note-card fade-in">
+                    <i class="fas fa-receipt"></i>
+                    <h4>Fee Refund Policy</h4>
+                    <p>Fee refund policy available as per institutional guidelines. Terms and conditions apply.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Important Dates -->
+    <section class="important-dates">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Admission Schedule</h2>
+                <p class="section-description">Important dates and deadlines for upcoming batches</p>
+            </div>
+
+            <div class="dates-timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-date">
+                        <span class="date">15</span>
+                        <span class="month">JAN</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Spring Batch Admissions Open</h4>
+                        <p>Admissions begin for Spring 2024 batch across all programs</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-date">
+                        <span class="date">28</span>
+                        <span class="month">FEB</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Admission Deadline</h4>
+                        <p>Last date to submit applications for Spring 2024 batch</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-date">
+                        <span class="date">05</span>
+                        <span class="month">MAR</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Classes Commence</h4>
+                        <p>Spring 2024 batch classes begin for all programs</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-date">
+                        <span class="date">01</span>
+                        <span class="month">JUN</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Summer Batch Admissions</h4>
+                        <p>Admissions open for Summer 2024 batch</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Begin Your Journey?</h2>
+                <p>Join hundreds of successful students who transformed their lives at RAAS Campus Korangi</p>
+                <div class="cta-buttons">
+                    <a href="registration.html" class="btn btn-light">Apply Now</a>
+                    <a href="contact.html" class="btn btn-outline-light">Visit Campus</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-description">Find answers to common questions about admissions</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item fade-in">
+                    <div class="faq-question">
+                        <h4>What are the admission requirements?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Minimum requirement is Matriculation or equivalent. Some programs may have additional requirements. Please check the specific program details for complete information.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-in">
+                    <div class="faq-question">
+                        <h4>Is there an age limit for admission?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>There is no upper age limit. However, students must be at least 16 years old to enroll in our programs.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-in">
+                    <div class="faq-question">
+                        <h4>Are scholarships available?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer merit-based and need-based scholarships. Contact our admission office for eligibility criteria and application process.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-in">
+                    <div class="faq-question">
+                        <h4>Can I pay fees in installments?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer flexible installment plans for all programs. The number of installments varies by program duration.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-in">
+                    <div class="faq-question">
+                        <h4>What is the admission process timeline?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The admission process typically takes 1-2 weeks from application submission to enrollment confirmation, depending on program availability.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-icon">RC</div>
+                        <span class="logo-text">RAAS CAMPUS <span class="logo-sub">KORANGI</span></span>
+                    </div>
+                    <p class="footer-description">Empowering Karachi through practical education, skills development, and character building since 2010.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Programs</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Programs</h4>
+                    <ul class="footer-links">
+                        <li><a href="courses.html#it">Information Technology</a></li>
+                        <li><a href="courses.html#business">Business Administration</a></li>
+                        <li><a href="courses.html#design">Graphic Design</a></li>
+                        <li><a href="courses.html">All Courses</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Korangi Crossing, Karachi, Pakistan</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+92 21 34567890</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@raascampus.edu.pk</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon - Sat: 8:00 AM - 6:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 RAAS Campus Korangi. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                        <a href="terms.html">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // FAQ functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    const icon = this.querySelector('i');
+                    
+                    // Toggle active class
+                    this.parentElement.classList.toggle('active');
+                    
+                    // Toggle icon
+                    if (this.parentElement.classList.contains('active')) {
+                        icon.className = 'fas fa-chevron-up';
+                        answer.style.maxHeight = answer.scrollHeight + 'px';
+                    } else {
+                        icon.className = 'fas fa-chevron-down';
+                        answer.style.maxHeight = '0';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

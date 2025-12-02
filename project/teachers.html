@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Teachers - RAAS CAMPUS KORANGI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-circle"></div>
+                <h2>RAAS CAMPUS</h2>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" class="logo-link">
+                    <div class="logo-icon">RC</div>
+                    <span class="logo-text">RAAS CAMPUS <span class="logo-sub">KORANGI</span></span>
+                </a>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <div class="nav-dropdown">
+                    <a href="about.html" class="nav-link">About <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="about.html">About Us</a>
+                        <a href="mission-vision.html">Mission & Vision</a>
+                        <a href="leadership.html">Leadership</a>
+                    </div>
+                </div>
+                <a href="courses.html" class="nav-link">Programs</a>
+                <a href="admissions.html" class="nav-link">Admissions</a>
+                <div class="nav-dropdown">
+                    <a href="campus-korangi.html" class="nav-link">Campus <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="campus-korangi.html">Campus Korangi</a>
+                        <a href="facilities.html">Facilities</a>
+                        <a href="teachers.html" class="active">Our Teachers</a>
+                        <a href="student-life.html">Student Life</a>
+                        <a href="achievements.html">Achievements</a>
+                    </div>
+                </div>
+                <a href="news.html" class="nav-link">News & Events</a>
+                <a href="success-stories.html" class="nav-link">Success Stories</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="donate.html" class="nav-btn">Donate Now</a>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="fade-in">Our Teachers</h1>
+                <p class="fade-in">Meet our dedicated team of experienced educators and industry professionals</p>
+                <nav class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <a href="campus-korangi.html">Campus</a>
+                    <span>/</span>
+                    <span>Our Teachers</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculty Introduction -->
+    <section class="faculty-intro">
+        <div class="container">
+            <div class="intro-content">
+                <div class="intro-text slide-in-left">
+                    <h2>Expert Faculty Team</h2>
+                    <p>At RAAS Campus Korangi, we take pride in our team of highly qualified and experienced teachers who are passionate about education and dedicated to student success. Our faculty members combine academic excellence with real-world industry experience to provide students with practical, career-focused education.</p>
+                    
+                    <div class="faculty-stats">
+                        <div class="faculty-stat">
+                            <h4>45+</h4>
+                            <p>Qualified Teachers</p>
+                        </div>
+                        <div class="faculty-stat">
+                            <h4>15+</h4>
+                            <p>Years Average Experience</p>
+                        </div>
+                        <div class="faculty-stat">
+                            <h4>95%</h4>
+                            <p>Student Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro-image slide-in-right">
+                    <img src="assets/images/teachers/faculty-group.jpg" alt="RAAS Campus Faculty">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Department Filters -->
+    <section class="department-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="dept-btn active" data-dept="all">All Faculty</button>
+                <button class="dept-btn" data-dept="it">Information Technology</button>
+                <button class="dept-btn" data-dept="business">Business Administration</button>
+                <button class="dept-btn" data-dept="design">Graphic Design</button>
+                <button class="dept-btn" data-dept="language">Language Department</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculty Grid -->
+    <section class="faculty-grid-section">
+        <div class="container">
+            <div class="faculty-grid">
+                <!-- IT Department -->
+                <div class="teacher-card fade-in" data-dept="it">
+                    <div class="teacher-image">
+                        <img src="assets/images/teachers/teacher-it-1.jpg" alt="Mr. Ali Hassan">
+                        <div class="teacher-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3>Mr. Ali Hassan</h3>
+                        <span class="teacher-title">Senior IT Instructor</span>
+                        <span class="teacher-dept">Information Technology Department</span>
+                        <p class="teacher-bio">15+ years of experience in software development and IT education. Specialized in web development and database management.</p>
+                        <div class="teacher-expertise">
+                            <span class="expertise-tag">Web Development</span>
+                            <span class="expertise-tag">Database Systems</span>
+                            <span class="expertise-tag">Python</span>
+                        </div>
+                        <div class="teacher-education">
+                            <h5>Education:</h5>
+                            <p>MSc Computer Science - NED University</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="teacher-card fade-in" data-dept="it">
+                    <div class="teacher-image">
+                        <img src="assets/images/teachers/teacher-it-2.jpg" alt="Ms. Sara Khan">
+                        <div class="teacher-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3>Ms. Sara Khan</h3>
+                        <span class="teacher-title">Programming Instructor</span>
+                        <span class="teacher-dept">Information Technology Department</span>
+                        <p class="teacher-bio">Full-stack developer with 8 years of industry experience. Passionate about teaching programming fundamentals and modern frameworks.</p>
+                        <div class="teacher-expertise">
+                            <span class="expertise-tag">JavaScript</span>
+                            <span class="expertise-tag">React</span>
+                            <span class="expertise-tag">Node.js</span>
+                        </div>
+                        <div class="teacher-education">
+                            <h5>Education:</h5>
+                            <p>BS Software Engineering - FAST University</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Business Department -->
+                <div class="teacher-card fade-in" data-dept="business">
+                    <div class="teacher-image">
+                        <img src="assets/images/teachers/teacher-business-1.jpg" alt="Mr. Asif Mahmood">
+                        <div class="teacher-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3>Mr. Asif Mahmood</h3>
+                        <span class="teacher-title">Business Management Instructor</span>
+                        <span class="teacher-dept">Business Administration Department</span>
+                        <p class="teacher-bio">20 years of corporate experience in business management and strategy. Former regional manager at multinational corporation.</p>
+                        <div class="teacher-expertise">
+                            <span class="expertise-tag">Business Strategy</span>
+                            <span class="expertise-tag">Management</span>
+                            <span class="expertise-tag">Marketing</span>
+                        </div>
+                        <div class="teacher-education">
+                            <h5>Education:</h5>
+                            <p>MBA - IBA Karachi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="teacher-card fade-in" data-dept="business">
+                    <div class="teacher-image">
+                        <img src="assets/images/teachers/teacher-business-2.jpg" alt="Ms. Nadia Ahmed">
+                        <div class="teacher-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3>Ms. Nadia Ahmed</h3>
+                        <span class="teacher-title">Accounting Instructor</span>
+                        <span class="teacher-dept">Business Administration Department</span>
+                        <p class="teacher-bio">Chartered Accountant with 12 years of experience in financial management and accounting education.</p>
+                        <div class="teacher-expertise">
+                            <span class="expertise-tag">Financial Accounting</span>
+                            <span class="expertise-tag">Taxation</span>
+                            <span class="expertise-tag">Auditing</span>
+                        </div>
+                        <div class="teacher-education">
+                            <h5>Education:</h5>
+                            <p>CA - Institute of Chartered Accountants</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design Department -->
+                <div class="teacher-card fade-in" data-dept="design">
+                    <div class="teacher-image">
+                        <img src="assets/images/teachers/teacher-design-1.jpg" alt="Ms. Zainab Raza">
+                        <div class="teacher-social">
+                            <a href="#"><i class="fab fa-behance"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3>Ms. Zainab Raza</h3>
+                        <span class="teacher-title">Graphic Design Instructor</span>
+                        <span class="teacher-dept">Graphic Design Department</span>
+                        <p class="teacher-bio">Award-winning graphic designer with 10+ years of experience in branding and digital design. Worked with major national brands.</p>
+                        <div class="teacher-expertise">
+                            <span class="expertise-tag">Adobe Creative Suite</span>
+                            <span class="expertise-tag">Brand Identity</span>
+                            <span class="expertise-tag">UI/UX Design</span>
+                        </div>
+                        <div class="teacher-education">
+                            <h5>Education:</h5>
+                            <p>BFA Graphic Design - Indus Valley School</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="teacher-card fade-in" data-dept="design">
+                    <div class="teacher-image">
+                        <img src="assets/images/teachers/teacher-design-2.jpg" alt="Mr. Bilal Siddiqui">
+                        <div class="teacher-social">
+                            <a href="#"><i class="fab fa-behance"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3>Mr. Bilal Siddiqui</h3>
+                        <span class="teacher-title">Digital Arts Instructor</span>
+                        <span class="teacher-dept">Graphic Design Department</span>
+                        <p class="teacher-bio">Digital artist and illustrator specializing in character design and digital painting. Published artist with international recognition.</p>
+                        <div class="teacher-expertise">
+                            <span class="expertise-tag">Digital Illustration</span>
+                            <span class="expertise-tag">Character Design</span>
+                            <span class="expertise-tag">Photoshop</span>
+                        </div>
+                        <div class="teacher-education">
+                            <h5>Education:</h5>
+                            <p>BFA - National College of Arts</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Language Department -->
+                <div class="teacher-card fade-in" data-dept="language">
+                    <div class="teacher-image">
+                        <img src="assets/images/teachers/teacher-language-1.jpg" alt="Ms. Fatima Javed">
+                        <div class="teacher-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3>Ms. Fatima Javed</h3>
+                        <span class="teacher-title">English Language Instructor</span>
+                        <span class="teacher-dept">Language Department</span>
+                        <p class="teacher-bio">CELTA certified English language instructor with 8 years of experience teaching business English and communication skills.</p>
+                        <div class="teacher-expertise">
+                            <span class="expertise-tag">Business English</span>
+                            <span class="expertise-tag">Communication Skills</span>
+                            <span class="expertise-tag">IELTS Preparation</span>
+                        </div>
+                        <div class="teacher-education">
+                            <h5>Education:</h5>
+                            <p>MA English Literature - University of Karachi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teaching Philosophy -->
+    <section class="teaching-philosophy">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Teaching Approach</h2>
+                <p class="section-description">We believe in practical, student-centered education that prepares learners for real-world challenges</p>
+            </div>
+
+            <div class="philosophy-grid">
+                <div class="philosophy-card fade-in">
+                    <div class="philosophy-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3>Student-Centered Learning</h3>
+                    <p>We focus on individual student needs and learning styles, ensuring every student gets the attention they deserve.</p>
+                </div>
+
+                <div class="philosophy-card fade-in">
+                    <div class="philosophy-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Practical Application</h3>
+                    <p>Our curriculum emphasizes hands-on learning and real-world projects that build practical skills.</p>
+                </div>
+
+                <div class="philosophy-card fade-in">
+                    <div class="philosophy-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Industry Relevance</h3>
+                    <p>We continuously update our teaching methods and content to align with current industry requirements.</p>
+                </div>
+
+                <div class="philosophy-card fade-in">
+                    <div class="philosophy-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Holistic Development</h3>
+                    <p>Beyond technical skills, we focus on character building and professional development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teacher Development -->
+    <section class="teacher-development">
+        <div class="container">
+            <div class="dev-content">
+                <div class="dev-text slide-in-left">
+                    <h2>Continuous Professional Development</h2>
+                    <p>Our teachers regularly participate in professional development programs, workshops, and industry conferences to stay updated with the latest teaching methodologies and industry trends.</p>
+                    
+                    <div class="dev-features">
+                        <div class="dev-feature">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <span>Regular Training Workshops</span>
+                        </div>
+                        <div class="dev-feature">
+                            <i class="fas fa-industry"></i>
+                            <span>Industry Exposure Programs</span>
+                        </div>
+                        <div class="dev-feature">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Advanced Certification Support</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dev-image slide-in-right">
+                    <img src="assets/images/teachers/teacher-training.jpg" alt="Teacher Development">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-icon">RC</div>
+                        <span class="logo-text">RAAS CAMPUS <span class="logo-sub">KORANGI</span></span>
+                    </div>
+                    <p class="footer-description">Empowering Karachi through practical education, skills development, and character building since 2010.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Programs</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Programs</h4>
+                    <ul class="footer-links">
+                        <li><a href="courses.html#it">Information Technology</a></li>
+                        <li><a href="courses.html#business">Business Administration</a></li>
+                        <li><a href="courses.html#design">Graphic Design</a></li>
+                        <li><a href="courses.html">All Courses</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Korangi Crossing, Karachi, Pakistan</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+92 21 34567890</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@raascampus.edu.pk</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon - Sat: 8:00 AM - 6:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 RAAS Campus Korangi. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                        <a href="terms.html">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Teacher department filtering
+        document.addEventListener('DOMContentLoaded', function() {
+            const deptBtns = document.querySelectorAll('.dept-btn');
+            const teacherCards = document.querySelectorAll('.teacher-card');
+
+            deptBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const dept = this.getAttribute('data-dept');
+                    
+                    // Update active button
+                    deptBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Filter teachers
+                    teacherCards.forEach(card => {
+                        if (dept === 'all' || card.getAttribute('data-dept') === dept) {
+                            card.style.display = 'block';
+                            setTimeout(() => {
+                                card.style.opacity = '1';
+                                card.style.transform = 'translateY(0)';
+                            }, 100);
+                        } else {
+                            card.style.opacity = '0';
+                            card.style.transform = 'translateY(20px)';
+                            setTimeout(() => {
+                                card.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

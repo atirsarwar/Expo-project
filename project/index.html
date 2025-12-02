@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAAS CAMPUS KORANGI - Empowering Karachi Through Education</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-circle"></div>
+                <h2>RAAS CAMPUS</h2>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" class="logo-link">
+                    <div ><img class="logo-icon" src="https://hunarfoundation.org/wp-content/uploads/2021/02/THF-Logo.png" alt=""></div>
+                    <span class="logo-text">RAAS CAMPUS <span class="logo-sub">KORANGI</span></span>
+                </a>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <div class="nav-dropdown">
+                    <a href="about.html" class="nav-link">About <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="about.html">About Us</a>
+                        <a href="leadership.html">Leadership</a>
+                    </div>
+                </div>
+                <a href="courses.html" class="nav-link">Programs</a>
+                <a href="admissions.html" class="nav-link">Admissions</a>
+                <div class="nav-dropdown">
+                    <a href="campus-korangi.html" class="nav-link">Campus <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="campus-korangi.html">Campus Korangi</a>
+                        <a href="facilities.html">Facilities</a>
+                        <a href="teachers.html">Our Teachers</a>
+                        <a href="student-life.html">Student Life</a>
+                        <a href="achievements.html">Achievements</a>
+                    </div>
+                </div>
+                <a href="news.html" class="nav-link">News & Events</a>
+                <a href="success-stories.html" class="nav-link">Success Stories</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="donate.html" class="nav-btn">Donate Now</a>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Slider -->
+    <section class="hero-slider">
+        <div class="slider-container">
+            <div class="slider-track">
+                <!-- Slide 1 -->
+                <div class="slide active" style="background-image: linear-gradient(rgba(6, 42, 77, 0.7), rgba(6, 42, 77, 0.7)), url('https://hunarfoundation.org/wp-content/uploads/2024/01/Your-Donation-makes-a-Difference-Slier-Image.jpg');">
+                    <div class="slide-content">
+                        <div class="slide-badge">Empowering Youth</div>
+                        <h1 class="slide-title">Quality Education for <span class="highlight">Karachi's Future</span></h1>
+                        <p class="slide-description">Transforming lives through practical education, skills development, and character building in Korangi community.</p>
+                        <div class="slide-buttons">
+                            <a href="admissions.html" class="btn btn-primary">Apply Now</a>
+                            <a href="about.html" class="btn btn-secondary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 2 -->
+                <div class="slide" style="background-image: linear-gradient(rgba(6, 42, 77, 0.7), rgba(6, 42, 77, 0.7)), url('https://hunarfoundation.org/wp-content/uploads/2024/01/Transforming-Skill-Learners-Into-Breadearners-Slider-Image.jpg');">
+                    <div class="slide-content">
+                        <div class="slide-badge">Skills Development</div>
+                        <h1 class="slide-title">Build Your <span class="highlight">Career Today</span></h1>
+                        <p class="slide-description">Industry-relevant courses designed to prepare students for successful careers in technology and business.</p>
+                        <div class="slide-buttons">
+                            <a href="courses.html" class="btn btn-primary">View Programs</a>
+                            <a href="contact.html" class="btn btn-secondary">Visit Campus</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 3 -->
+                <div class="slide" style="background-image: linear-gradient(rgba(6, 42, 77, 0.7), rgba(6, 42, 77, 0.7)), url('https://hunarfoundation.org/wp-content/uploads/2024/01/Driving-Womens-Economic-Empowerment-Slier-Image.jpg');">
+                    <div class="slide-content">
+                        <div class="slide-badge">Community Impact</div>
+                        <h1 class="slide-title">Join Our <span class="highlight">Success Story</span></h1>
+                        <p class="slide-description">Be part of a community that's changing lives and building a brighter future for Karachi's youth.</p>
+                        <div class="slide-buttons">
+                            <a href="volunteer.html" class="btn btn-primary">Get Involved</a>
+                            <a href="donate.html" class="btn btn-secondary">Support Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slider-controls">
+                <button class="slider-prev" id="sliderPrev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-next" id="sliderNext">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            
+            <div class="slider-dots" id="sliderDots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Counter -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-count="2500">0</h3>
+                        <p class="stat-label">Students Trained</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-count="15">0</h3>
+                        <p class="stat-label">Courses Offered</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-count="45">0</h3>
+                        <p class="stat-label">Expert Teachers</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-count="89">0</h3>
+                        <p class="stat-label">Success Rate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="about-preview">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">About RAAS Campus</span>
+                <h2 class="section-title">Transforming Education in Korangi</h2>
+                <p class="section-description">Dedicated to providing quality education and skill development to empower Karachi's youth.</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-content">
+                    <h3>Building Futures Since 2010</h3>
+                    <p>RAAS Campus Korangi has been at the forefront of educational excellence, providing underprivileged youth with the skills and knowledge needed to succeed in today's competitive world.</p>
+                    
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Industry-Relevant Curriculum</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Experienced Faculty</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Modern Facilities</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Career Support</span>
+                        </div>
+                    </div>
+                    
+                    <a href="about.html" class="btn btn-primary">Discover More</a>
+                </div>
+                
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="https://hunarfoundation.org/wp-content/uploads/2024/01/Home-Page-THF-Story-Image.jpg" alt="RAAS Campus Building" class="main-image">
+                        <div class="floating-card experience-card">
+                            <h4>13+ Years</h4>
+                            <p>of Excellence</p>
+                        </div>
+                        <div class="floating-card students-card">
+                            <h4>2500+</h4>
+                            <p>Students</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Programs</span>
+                <h2 class="section-title">Featured Courses</h2>
+                <p class="section-description">Comprehensive programs designed to build skills for tomorrow's careers.</p>
+            </div>
+            
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Information Technology</h3>
+                    <p>Comprehensive IT training including programming, web development, and software engineering.</p>
+                    <ul class="program-features">
+                        <li><i class="fas fa-clock"></i> 6 Months Duration</li>
+                        <li><i class="fas fa-user-graduate"></i> Certificate Program</li>
+                        <li><i class="fas fa-briefcase"></i> Job Ready Skills</li>
+                    </ul>
+                    <a href="courses.html#it" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Business Administration</h3>
+                    <p>Business management, accounting, and entrepreneurship skills for modern business environment.</p>
+                    <ul class="program-features">
+                        <li><i class="fas fa-clock"></i> 8 Months Duration</li>
+                        <li><i class="fas fa-user-graduate"></i> Diploma Program</li>
+                        <li><i class="fas fa-briefcase"></i> Management Focus</li>
+                    </ul>
+                    <a href="courses.html#business" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Creative design courses covering digital art, branding, and multimedia design principles.</p>
+                    <ul class="program-features">
+                        <li><i class="fas fa-clock"></i> 4 Months Duration</li>
+                        <li><i class="fas fa-user-graduate"></i> Certificate Program</li>
+                        <li><i class="fas fa-briefcase"></i> Portfolio Development</li>
+                    </ul>
+                    <a href="courses.html#design" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <div class="section-cta">
+                <a href="courses.html" class="btn btn-outline">View All Programs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Life -->
+    <section class="campus-life">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Campus Life</span>
+                <h2 class="section-title">Experience RAAS Korangi</h2>
+                <p class="section-description">A vibrant learning environment with modern facilities and engaging activities.</p>
+            </div>
+            
+            <div class="campus-grid">
+                <div class="campus-card">
+                    <div class="campus-image">
+                        <img src="https://hunarfoundation.org/wp-content/uploads/2024/01/Laila-Tul-Noor-Hunar-Dastaan-Image.jpg" alt="Modern Classrooms">
+                        <div class="campus-overlay">
+                            <h4>Modern Classrooms</h4>
+                            <p>State-of-the-art learning spaces</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="campus-card">
+                    <div class="campus-image">
+                        <img src="https://hunarfoundation.org/wp-content/uploads/2024/01/Fakhar-Iqbal-Hunar-Dastaan-Image.jpg" alt="Computer Labs">
+                        <div class="campus-overlay">
+                            <h4>Computer Labs</h4>
+                            <p>Latest technology equipment</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="campus-card">
+                    <div class="campus-image">
+                        <img src="https://hunarfoundation.org/wp-content/uploads/2024/01/THF-In-Media-Page-Title-Image.jpg" alt="Library">
+                        <div class="campus-overlay">
+                            <h4>Library</h4>
+                            <p>Extensive learning resources</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="campus-card">
+                    <div class="campus-image">
+                        <img src="https://hunarfoundation.org/wp-content/uploads/2024/01/Video-Gallery-Page-Title-Image.jpg" alt="Sports Facilities">
+                        <div class="campus-overlay">
+                            <h4>Sports Facilities</h4>
+                            <p>Recreation and fitness areas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Success Stories</span>
+                <h2 class="section-title">What Our Students Say</h2>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonials-track" id="testimonialsTrack">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p>"RAAS Campus gave me the skills and confidence to start my own web development business. The practical training changed my life completely."</p>
+                            <div class="testimonial-author">
+                                <img src="https://hunarfoundation.org/wp-content/uploads/2024/08/Delhi-Mercantile-Society-Technical-Institute-Image.jpg" alt="Ahmed Raza">
+                                <div class="author-info">
+                                    <h4>Ahmed Raza</h4>
+                                    <span>Web Developer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p>"The business administration program helped me secure a management position. The faculty's dedication is truly remarkable."</p>
+                            <div class="testimonial-author">
+                                <img src="https://hunarfoundation.org/wp-content/uploads/2024/01/THF-In-Media-Page-Title-Image.jpg" alt="Fatima Khan">
+                                <div class="author-info">
+                                    <h4>Fatima Khan</h4>
+                                    <span>Business Manager</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p>"As a graphic design graduate, I now work with top agencies. The hands-on projects prepared me for real-world challenges."</p>
+                            <div class="testimonial-author">
+                                <img src="https://hunarfoundation.org/wp-content/uploads/2024/08/Farouq-Ahmed-Aftab-Shamsi-Technical-Institute-Image.jpg" alt="Bilal Ahmed">
+                                <div class="author-info">
+                                    <h4>Bilal Ahmed</h4>
+                                    <span>Graphic Designer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonials-controls">
+                    <button class="testimonial-prev" id="testimonialPrev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="testimonial-next" id="testimonialNext">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Journey?</h2>
+                <p>Join RAAS Campus Korangi today and take the first step toward a successful career.</p>
+                <div class="cta-buttons">
+                    <a href="registration.html" class="btn btn-light">Apply Now</a>
+                    <a href="contact.html" class="btn btn-outline-light">Visit Campus</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-icon">RC</div>
+                        <span class="logo-text">RAAS CAMPUS <span class="logo-sub">KORANGI</span></span>
+                    </div>
+                    <p class="footer-description">Empowering Karachi through practical education, skills development, and character building since 2010.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Programs</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Programs</h4>
+                    <ul class="footer-links">
+                        <li><a href="courses.html#it">Information Technology</a></li>
+                        <li><a href="courses.html#business">Business Administration</a></li>
+                        <li><a href="courses.html#design">Graphic Design</a></li>
+                        <li><a href="courses.html">All Courses</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Korangi Crossing, Karachi, Pakistan</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+92 21 34567890</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@raascampus.edu.pk</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon - Sat: 8:00 AM - 6:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 RAAS Campus Korangi. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                        <a href="terms.html">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/navbar.js"></script>
+    <script src="js/sliders.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
